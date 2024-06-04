@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/tokenlist.schema.json",
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
   "name": "Union Testnet 8 Token List",
   "keywords": [],
   "tags": {},

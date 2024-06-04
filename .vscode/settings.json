@@ -1,0 +1,29 @@
+{
+  "biome.enabled": true,
+  "biome.lspBin": "~/Library/pnpm/biome",
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "search.exclude": {
+    "**/_/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/node_modules": true
+  },
+  "files.exclude": {
+    "**/*._*": true,
+    "**/.direnv/**": true
+  },
+  "files.associations": {
+    ".envrc": "dotenv"
+  }
+}

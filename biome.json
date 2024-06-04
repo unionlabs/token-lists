@@ -1,0 +1,46 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.7.3/schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "organizeImports": {
+    "enabled": false,
+    "include": ["*.ts", "*.json", "*.jsonc"],
+    "ignore": ["_"]
+  },
+  "files": {
+    "maxSize": 3048576,
+    "include": ["*.ts", "*.json", "*.jsonc"],
+    "ignoreUnknown": true,
+    "ignore": ["_"]
+  },
+  "json": {
+    "parser": {
+      "allowComments": true,
+      "allowTrailingCommas": true
+    },
+    "formatter": {
+      "enabled": true
+    }
+  },
+  "formatter": {
+    "enabled": true,
+    "lineWidth": 100,
+    "indentWidth": 2,
+    "indentStyle": "space",
+    "formatWithErrors": true,
+    "attributePosition": "auto",
+    "include": ["*.ts", "*.json", "*.jsonc"],
+    "ignore": ["_"]
+  },
+  "linter": {
+    "rules": {
+      "all": true
+    },
+    "enabled": true,
+    "include": ["*.ts", "*.json", "*.jsonc"],
+    "ignore": ["_"]
+  }
+}

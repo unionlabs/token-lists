@@ -28,3 +28,4 @@ cache
 **/.vitepress/cache/
 .vitepress/dist
 *.timestamp-*
+.direnv
