@@ -1,0 +1,24 @@
+{
+  "$schema":"../tokenlist.schema.json",
+  "name": "Union Testnet 8 Token List",
+  "keywords": [],
+  "tags": {
+    
+  },
+  "timestamp": "2024-06-04T21:47:00Z",
+  "tokens": [
+    {
+      "decimals": 6,
+      "symbol": "UNO",
+      "address": "muno",
+      "name": "UNO Coin",
+      "chainId": "union-testnet-8",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/union-testnet-8/logo/muno.svg"
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
