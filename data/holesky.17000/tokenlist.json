@@ -5,7 +5,15 @@
   "tags": {},
   "timestamp": "2025-01-15T16:00:00Z",
   "tokens": [
-  ],
+        {
+            "chainId": 17000,
+            "address": "0x685cE6742351ae9b618F383883D6d1e0c5A31B4B",
+            "symbol": "LINK",
+            "decimals": 18,
+            "name": "ChainLink Token",
+            "logoURI": ""
+        }
+    ],
   "version": {
     "major": 1,
     "minor": 0,
