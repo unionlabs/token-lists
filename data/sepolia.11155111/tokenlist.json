@@ -5,7 +5,103 @@
   "tags": {},
   "timestamp": "2025-01-15T16:00:00Z",
   "tokens": [
-  ],
+        {
+            "chainId": 11155111,
+            "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+            "symbol": "USDC",
+            "decimals": 6,
+            "name": "USDC",
+            "logoURI": ""
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x523C8591Fbe215B5aF0bEad65e65dF783A37BCBC",
+            "symbol": "USDT",
+            "decimals": 6,
+            "name": "USDT (not sure)",
+            "logoURI": ""
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x779877A7B0D9E8603169DdbD7836e478b4624789",
+            "symbol": "LINK",
+            "decimals": 18,
+            "name": "ChainLink Token",
+            "logoURI": ""
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x464C8ec100F2F42fB4e42E07E203DA2324f9FC67",
+            "symbol": "ETH",
+            "decimals": 18,
+            "name": "Ethereum (not sure)",
+            "logoURI": ""
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x08210F9170F89Ab7658F0B5E3fF39b0E03C594D4",
+            "symbol": "EURC",
+            "decimals": 18,
+            "name": "EURC (not sure)",
+            "logoURI": ""
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x6351b954418E5bb7fbD23f8BaC850536e5e0Df93",
+            "symbol": "APE",
+            "decimals": 18,
+            "name": "APE (not sure)",
+            "logoURI": ""
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x79AEE81e6863A223793bd59C9b3497599B995C26",
+            "symbol": "SHIB",
+            "decimals": 18,
+            "name": "SHIB (not sure)",
+            "logoURI": ""
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x42877438df132A854179A21e113F3DD3cc62B853",
+            "symbol": "CHZ",
+            "decimals": 18,
+            "name": "CHZ (not sure)",
+            "logoURI": ""
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x34229f9Bf7162Ee2b077702D21070234E74FE53D",
+            "symbol": "COMP",
+            "decimals": 18,
+            "name": "COMP (not sure)",
+            "logoURI": ""
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x5b41A5c0Df16551f5edeAa2B2eDe2135F1a824DF",
+            "symbol": "DOP_LINK",
+            "decimals": 18,
+            "name": "DOP_LINK (not sure)",
+            "logoURI": ""
+        },
+        {
+            "chainId": 11155111,
+            "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+            "symbol": "CRV",
+            "decimals": 18,
+            "name": "Curve DAO Token (not sure)",
+            "logoURI": ""
+        },
+        {
+            "chainId": 11155111,
+            "address": "0xC944E90C64B2c07662A292be6244BDf05Cda44a7",
+            "symbol": "GRT",
+            "decimals": 18,
+            "name": "Graph Token (not sure)",
+            "logoURI": ""
+        }
+    ],
   "version": {
     "major": 1,
     "minor": 0,
