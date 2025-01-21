@@ -7,7 +7,7 @@
       "symbol": "ETH",
       "address": "0x6e6174697665",
       "logoURI": null,
-      "chain_id": "534351",
+      "chainId": "534351",
       "decimals": 18
     },
     {
@@ -15,7 +15,7 @@
       "symbol": "UNO",
       "address": "0xd8a4904e595dd2fb198e69ce33ccf933932c4b6d",
       "logoURI": null,
-      "chain_id": "534351",
+      "chainId": "534351",
       "decimals": 6
     },
     {
@@ -23,7 +23,7 @@
       "symbol": "LINK",
       "address": "0x231d45b53c905c3d6201318156bdc725c9c3b9b1",
       "logoURI": null,
-      "chain_id": "534351",
+      "chainId": "534351",
       "decimals": 18
     },
     {
@@ -31,7 +31,7 @@
       "symbol": "USDC",
       "address": "0x42e75e6a76b1a8a2432e620ab0f27393275e556c",
       "logoURI": null,
-      "chain_id": "534351",
+      "chainId": "534351",
       "decimals": 6
     },
     {
@@ -39,7 +39,7 @@
       "symbol": "HONEY",
       "address": "0xd812197c4c28354132394112544de8ff5ee770c2",
       "logoURI": null,
-      "chain_id": "534351",
+      "chainId": "534351",
       "decimals": 18
     }
   ],

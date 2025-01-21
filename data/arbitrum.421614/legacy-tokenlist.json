@@ -7,7 +7,7 @@
       "symbol": "USDC",
       "address": "0x75faf114eafb1bdbe2f0316df893fd58ce46aa4d",
       "logoURI": null,
-      "chain_id": "421614",
+      "chainId": "421614",
       "decimals": 6
     },
     {
@@ -15,7 +15,7 @@
       "symbol": "LINK",
       "address": "0xb1d4538b4571d411f07960ef2838ce337fe1e80e",
       "logoURI": null,
-      "chain_id": "421614",
+      "chainId": "421614",
       "decimals": 18
     },
     {
@@ -23,7 +23,7 @@
       "symbol": "SPN",
       "address": "0x2f26b901590801476c5bac1debc4e42379127a44",
       "logoURI": null,
-      "chain_id": "421614",
+      "chainId": "421614",
       "decimals": 18
     },
     {
@@ -31,7 +31,7 @@
       "symbol": "UNO",
       "address": "0xf98e3c78955b660ac30ade94015758f6a25e7a9d",
       "logoURI": null,
-      "chain_id": "421614",
+      "chainId": "421614",
       "decimals": 6
     },
     {
@@ -39,7 +39,7 @@
       "symbol": "OVL",
       "address": "0x3e27fae625f25291bfda517f74bf41dc40721da2",
       "logoURI": null,
-      "chain_id": "421614",
+      "chainId": "421614",
       "decimals": 18
     },
     {
@@ -47,7 +47,7 @@
       "symbol": "APE",
       "address": "0x6cb8cc1e323357af5da49d90fcb7160b7f09e6cd",
       "logoURI": null,
-      "chain_id": "421614",
+      "chainId": "421614",
       "decimals": 18
     },
     {
@@ -55,7 +55,7 @@
       "symbol": "USDT",
       "address": "0x9aa40cc99973d8407a2ae7b2237d26e615ecafd2",
       "logoURI": null,
-      "chain_id": "421614",
+      "chainId": "421614",
       "decimals": 18
     }
   ],

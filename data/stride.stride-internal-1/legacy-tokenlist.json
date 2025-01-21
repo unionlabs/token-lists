@@ -7,7 +7,7 @@
       "symbol": "STRD",
       "address": "0x7573747264",
       "logoURI": null,
-      "chain_id": "stride-internal-1",
+      "chainId": "stride-internal-1",
       "decimals": 6
     },
     {
@@ -15,7 +15,7 @@
       "symbol": "UNO",
       "address": "0x6962632f39414536393534333944333746413536373336313144363734464344344142384141414332453941384441453131423042433134414339303631374641433236",
       "logoURI": null,
-      "chain_id": "stride-internal-1",
+      "chainId": "stride-internal-1",
       "decimals": 6
     },
     {
@@ -23,7 +23,7 @@
       "symbol": "o_______o",
       "address": "0x6962632f41343835313842423635373130333933363145324244444135353943383441423030373642463030303833353642343244334645463632413142344343303941",
       "logoURI": null,
-      "chain_id": "stride-internal-1",
+      "chainId": "stride-internal-1",
       "decimals": 0
     },
     {
@@ -31,7 +31,7 @@
       "symbol": "HONEY",
       "address": "0x6962632f31383531433833363046313831313134333632314142383345374532443034383430323835384437463241443445343143364630313133454636393631353632",
       "logoURI": null,
-      "chain_id": "stride-internal-1",
+      "chainId": "stride-internal-1",
       "decimals": 18
     },
     {
@@ -39,7 +39,7 @@
       "symbol": "stdv4tnt",
       "address": "0x737461647634746e74",
       "logoURI": null,
-      "chain_id": "stride-internal-1",
+      "chainId": "stride-internal-1",
       "decimals": 18
     },
     {
@@ -47,7 +47,7 @@
       "symbol": "stTIA",
       "address": "0x737475746961",
       "logoURI": null,
-      "chain_id": "stride-internal-1",
+      "chainId": "stride-internal-1",
       "decimals": 6
     }
   ],

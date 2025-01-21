@@ -7,7 +7,7 @@
       "symbol": "OSMO",
       "address": "0x756f736d6f",
       "logoURI": null,
-      "chain_id": "osmo-test-5",
+      "chainId": "osmo-test-5",
       "decimals": 6
     }
   ],
