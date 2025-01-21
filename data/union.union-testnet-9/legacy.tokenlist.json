@@ -1,0 +1,22 @@
+{
+  "name": "Legacy Testnet 8 union union-testnet-9 Token List",
+  "tags": {},
+  "tokens": [
+    {
+      "name": "muno (testing denom relation)",
+      "symbol": "muno",
+      "address": "0x6d756e6f",
+      "logoURI": null,
+      "chain_id": "union-testnet-9",
+      "decimals": 18
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [],
+  "timestamp": "2025-01-21T13:54:42Z"
+}

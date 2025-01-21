@@ -1,0 +1,22 @@
+{
+  "name": "Legacy Testnet 8 osmosis osmo-test-5 Token List",
+  "tags": {},
+  "tokens": [
+    {
+      "name": "OSMO",
+      "symbol": "OSMO",
+      "address": "0x756f736d6f",
+      "logoURI": null,
+      "chain_id": "osmo-test-5",
+      "decimals": 6
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [],
+  "timestamp": "2025-01-21T13:54:42Z"
+}
