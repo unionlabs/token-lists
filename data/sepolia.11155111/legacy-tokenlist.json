@@ -27,14 +27,6 @@
       "decimals": 6
     },
     {
-      "name": "CoW Protocol Token (COW)",
-      "symbol": "COW",
-      "address": "0x0625afb445c3b6b7b929342a04a22599fd5dbb59",
-      "logoURI": null,
-      "chainId": "11155111",
-      "decimals": null
-    },
-    {
       "name": "OKB",
       "symbol": "OKB",
       "address": "0x3f4b6664338f23d2397c953f2ab4ce8031663f80",
