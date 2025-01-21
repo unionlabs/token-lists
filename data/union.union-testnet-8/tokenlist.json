@@ -11,7 +11,7 @@
       "address": "muno",
       "name": "UNO Coin",
       "chainId": "union-testnet-8",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/union-testnet-8/logo/muno.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/union/union-testnet-8/logo/muno.svg"
     },
     {
       "decimals": 0,
@@ -19,7 +19,7 @@
       "address": "factory/union1eumfw2ppz8cwl8xdh3upttzp5rdyms48kqhm30f8g9u4zwj0pprqg2vmu3/0xbf41fec2bba5519a54171fc02966728e29e3d18adc",
       "name": "ChainLink Token",
       "chainId": "union-testnet-8",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/union-testnet-8/logo/link.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/union/union-testnet-8/logo/link.svg"
     },
     {
       "decimals": 0,
@@ -27,7 +27,7 @@
       "address": "factory/union1eumfw2ppz8cwl8xdh3upttzp5rdyms48kqhm30f8g9u4zwj0pprqg2vmu3/0xf9723da2b63f6b412046c5da3aafa5e7a26876ba33",
       "name": "USDC",
       "chainId": "union-testnet-8",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/union-testnet-8/logo/usdc.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/union/union-testnet-8/logo/usdc.svg"
     }
   ],
   "version": {
