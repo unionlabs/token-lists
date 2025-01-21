@@ -7,7 +7,7 @@
       "symbol": "muno",
       "address": "0x6d756e6f",
       "logoURI": null,
-      "chain_id": "union-testnet-9",
+      "chainId": "union-testnet-9",
       "decimals": 18
     }
   ],

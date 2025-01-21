@@ -7,7 +7,7 @@
       "symbol": "HONEY",
       "address": "0x0c27d64e1a1f4c24a4ee7b3d1acb0a2865c9004c",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -15,7 +15,7 @@
       "symbol": "BERA",
       "address": "0x6e6174697665",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -23,7 +23,7 @@
       "symbol": "HONEY",
       "address": "0x0e4aaf1351de4c0264c5c7056ef3777b41bd8e03",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -31,7 +31,7 @@
       "symbol": "EURC",
       "address": "0x8c18520386b7db6d5ae7d05cfdb51e91393c68c1",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 6
     },
     {
@@ -39,7 +39,7 @@
       "symbol": "o_______o",
       "address": "0xb40470a00bd9efebc84faaa99b5e55f5ec5d9deb",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 0
     },
     {
@@ -47,7 +47,7 @@
       "symbol": "STRD",
       "address": "0x6e1dae544ae8f327737ab9effa632758937b1f12",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 6
     },
     {
@@ -55,7 +55,7 @@
       "symbol": "USDT",
       "address": "0x05d0dd5135e3ef3ade32a9ef9cb06e8d37a6795d",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 6
     },
     {
@@ -63,7 +63,7 @@
       "symbol": "WBERA",
       "address": "0x7507c1dc16935b82698e4c63f2746a2fcf994df8",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -71,7 +71,7 @@
       "symbol": "DIRAC",
       "address": "0x277aadbd9ea3db8fe9ea40ea6e09f6203724bdae",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -79,7 +79,7 @@
       "symbol": "USDG",
       "address": "0x83e15fdaed52dd06725efbf08d40eaff6dd043d4",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -87,7 +87,7 @@
       "symbol": "WBTC",
       "address": "0x286f1c3f0323db9c91d1e8f45c8df2d065ab5fae",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 8
     },
     {
@@ -95,7 +95,7 @@
       "symbol": "KODIAK-1",
       "address": "0x12c195768f65f282ea5f1b5c42755fbc910b0d8f",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -103,7 +103,7 @@
       "symbol": "bSTRK",
       "address": "0x20efa68374f030cb5c5a7d776fc07e2240712580",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -111,7 +111,7 @@
       "symbol": "USDT",
       "address": "0x2a108225249cb5b3e1e33943f5fefaec33b1d452",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -119,7 +119,7 @@
       "symbol": "BTP",
       "address": "0x2c2fc71339acdd913734a4cae9dd95d9d2b1438d",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -127,7 +127,7 @@
       "symbol": "VKb",
       "address": "0x30b4eb3096ebba3eb66b5068c6c7116d5599a395",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -135,7 +135,7 @@
       "symbol": "BRG",
       "address": "0x02d9cd83093153f35cef7ef2496d0223fc8e94c6",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -143,7 +143,7 @@
       "symbol": "MIM",
       "address": "0x08b918dd18e087893bb9d711d9e0bbaa7a63ef63",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -151,7 +151,7 @@
       "symbol": "pepe",
       "address": "0x08cb9f7279fc034fb1281f096dd8bbed2b9dc8bf",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -159,7 +159,7 @@
       "symbol": "WETH-USDC-LP",
       "address": "0x0d30be7305e800d4a0dfd8d4d7cacd5123831b4a",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -167,7 +167,7 @@
       "symbol": "aWBTC",
       "address": "0x0ddb38f7d473e8040985fa3b4116fdeef89778bc",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 8
     },
     {
@@ -175,7 +175,7 @@
       "symbol": "ABR",
       "address": "0x0f81553292b5d9fa563a92d7c2a339e2b402b154",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -183,7 +183,7 @@
       "symbol": "bHONEY",
       "address": "0x1306d3c36ec7e38dd2c128fbe3097c2c2449af64",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -191,7 +191,7 @@
       "symbol": "HONEY-WBTC-LP",
       "address": "0x14ee0a8dcd1714781aa0d026f46fc7f77b73c01d",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -199,7 +199,7 @@
       "symbol": "YEET",
       "address": "0x1740f679325ef3686b2f574e392007a92e4bed41",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -207,7 +207,7 @@
       "symbol": "KODIAK-4",
       "address": "0x1afe9c399b40a65c783049e732d7ad5d37e68f78",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -215,7 +215,7 @@
       "symbol": "BEARTIC",
       "address": "0x1e94a8cee3e5bd97e0cd933b8f8537fc3db4fce7",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -223,7 +223,7 @@
       "symbol": "HONEY-WETH-LP",
       "address": "0x50f7d4da89f720fbfb35be369f34c6b51e2cada1",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -231,7 +231,7 @@
       "symbol": "WETH",
       "address": "0x6e1e9896e93f7a71ecb33d4386b49deed67a231a",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -239,7 +239,7 @@
       "symbol": "DAI",
       "address": "0x806ef538b228844c73e8e692adcfa8eb2fcf729c",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -247,7 +247,7 @@
       "symbol": "aWETH",
       "address": "0x8ce5c1c42cd58b7ae61512790e514a82d84375ed",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -255,7 +255,7 @@
       "symbol": "CRACK",
       "address": "0x8f22cd288fa62f5f198ba03fcdb3829dd7c0cbb8",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -263,7 +263,7 @@
       "symbol": "MIM-HONEY-LP",
       "address": "0xa11e60393dbaec5a45416f063de2abf94af2cd50",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -271,7 +271,7 @@
       "symbol": "aHONEY",
       "address": "0xd08391c5977ebf1a09bb5915908ef5cd95edb7e0",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -279,7 +279,7 @@
       "symbol": "HONEY-WBERA-LP",
       "address": "0xd28d852cbcc68dcec922f6d5c7a8185dbaa104b7",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -287,7 +287,7 @@
       "symbol": "USDT",
       "address": "0xd67eab117504baaf5c24873f7a4c37d9290253e8",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -295,7 +295,7 @@
       "symbol": "USDC",
       "address": "0xd6d83af58a19cd14ef3cf6fe848c9a4d21e5727c",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -303,7 +303,7 @@
       "symbol": "UNI-V2",
       "address": "0xf331abffe9cb2b966ab4c102ee268f4e1ad8e24b",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -311,7 +311,7 @@
       "symbol": "IBGT",
       "address": "0xf498d49f7f8d063b7d584c0a679a1ce777f3900b",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -319,7 +319,7 @@
       "symbol": "KDK",
       "address": "0xfd27998fa0eab1a6372db14afd4bf7c4a58c5364",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -327,7 +327,7 @@
       "symbol": "CLP:HONEY-WBERA",
       "address": "0x19aaffa7f6d4faaf74dc92dba5751ae697f4b55f",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -335,7 +335,7 @@
       "symbol": "WBERA",
       "address": "0x215d01442e3d00f705ba62814b2bc93a4190bfb5",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -343,7 +343,7 @@
       "symbol": "CL",
       "address": "0x2d2e9b0e05570af5b84ddfb3cf43aafc11e036db",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -351,7 +351,7 @@
       "symbol": "BN",
       "address": "0x31427558640683c1df3a06ce1e4cb18ad3be8143",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -359,7 +359,7 @@
       "symbol": "GOLD",
       "address": "0x343499e6315f7d3473a12aaf660ac02b5739c382",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -367,7 +367,7 @@
       "symbol": "SW",
       "address": "0x3d31118bb13c65d8c4232b82e9900a00bf969573",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -375,7 +375,7 @@
       "symbol": "USDT-USDC-LP",
       "address": "0x460f04e2dc8368b77bda56571fbd0e8665a1c7c1",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -383,7 +383,7 @@
       "symbol": "ttt",
       "address": "0x55a1dda169abb5faffe4df705b260ce9d7eb441a",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -391,7 +391,7 @@
       "symbol": "DBS",
       "address": "0x5c1b1e396fa646ad1d774c73ec8cc45bd9ec1622",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -399,7 +399,7 @@
       "symbol": "COKE",
       "address": "0x6123100b681e04411b12cd111f080bc4d3c62086",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 8
     },
     {
@@ -407,7 +407,7 @@
       "symbol": "WBERA",
       "address": "0x61b34ac024035e815452047da3b42b46d76339dd",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -415,7 +415,7 @@
       "symbol": "zberaWBERA",
       "address": "0x676d0707ac8b4d3e321986f752cad44edbfab6e7",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -423,7 +423,7 @@
       "symbol": "WETH-WBERA-LP",
       "address": "0x730972eb6ee7e9e68a1cd463fccf454022031017",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -431,7 +431,7 @@
       "symbol": "UNI-V2",
       "address": "0x820288fe9189136c0eba3d08db6bf544c2a335fe",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -439,7 +439,7 @@
       "symbol": "ASB",
       "address": "0x8227c83e177be2e389f04c8799e756aad5ce217b",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -447,7 +447,7 @@
       "symbol": "USDT",
       "address": "0x946fb1871396f77e2e0232cdbc96b818035c6068",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -455,7 +455,7 @@
       "symbol": "YEBO",
       "address": "0x978cc7ca0c14a8ae42a0590c43c27a200ebf884a",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -463,7 +463,7 @@
       "symbol": "UNI-V2",
       "address": "0x9f8028150519dd4fd792f3476c4b2046ac0ff5cd",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -471,7 +471,7 @@
       "symbol": "JNKY",
       "address": "0xa0525273423537bc76825b4389f3baec1968f83f",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -479,7 +479,7 @@
       "symbol": "etk",
       "address": "0xa2d4ebce803311a7d3770dc0814f8aad086d0e1e",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -487,7 +487,7 @@
       "symbol": "HYT",
       "address": "0xa8ff751d316344e1336cf7875bb881ddd16e4f5b",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -495,7 +495,7 @@
       "symbol": "TMTN",
       "address": "0xb5c6e9f84f647964bac2f560a3f4a6324032a977",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -503,7 +503,7 @@
       "symbol": "Guruuu",
       "address": "0xb703adc1efff53b4745481f0bfb96060e7abed7c",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -511,7 +511,7 @@
       "symbol": "KODIAK-2",
       "address": "0xb73dee52f38539ba854979eab6342a60dd4c8c03",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -519,7 +519,7 @@
       "symbol": "RTA",
       "address": "0xb85f8f2dc79c98fce9ad8110d72213ca9ba09e8e",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -527,7 +527,7 @@
       "symbol": "lbrt",
       "address": "0xb9b10d30be831f0bd3f85aca79a0bc90e5c2adfa",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -535,7 +535,7 @@
       "symbol": "CP",
       "address": "0xbb7402aae0772ebec973d0421971d29ea2fc2429",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -543,7 +543,7 @@
       "symbol": "WBTC-WETH-LP",
       "address": "0xbf3faa5700fd686dcbab8b2b3043b5603530e54f",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -551,7 +551,7 @@
       "symbol": "USDT",
       "address": "0xc2b60e00a29e99bc8cb54b110ea8ab126ea5ea8f",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 6
     },
     {
@@ -559,7 +559,7 @@
       "symbol": "BBATK",
       "address": "0xca3bf2aa409612aca3a59db4a6684cf9a9336c32",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -567,7 +567,7 @@
       "symbol": "aWETH",
       "address": "0xca97345ad6a91176429caf5aa2896732cbf66ebd",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -575,7 +575,7 @@
       "symbol": "USDC",
       "address": "0xd1a90f79539f5895cdf2688f5505e0cf7e33ac4c",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 6
     },
     {
@@ -583,7 +583,7 @@
       "symbol": "SUGAR",
       "address": "0xd437095a7ac009dd61036c693d9d77a6b97bf6a9",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -591,7 +591,7 @@
       "symbol": "YLX",
       "address": "0xd57478f7b74cf5adc84bc3b02cb351b4be69c430",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -599,7 +599,7 @@
       "symbol": "HONEY-USDC-LP",
       "address": "0xd69adb6fb5fd6d06e6ceec5405d95a37f96e3b96",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -607,7 +607,7 @@
       "symbol": "fBera",
       "address": "0xdfdaeca74bb2d37204171ce05fe6ba6ae970d844",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -615,7 +615,7 @@
       "symbol": "WETH",
       "address": "0xe28afd8c634946833e89ee3f122c06d7c537e8a8",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -623,7 +623,7 @@
       "symbol": "BB",
       "address": "0xe4b887d8a4d99d7da99bfa48d8363ec415776490",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -631,7 +631,7 @@
       "symbol": "KODIAK-3",
       "address": "0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -639,7 +639,7 @@
       "symbol": "CLP:WBERA-HYT",
       "address": "0xecf993860416f98d27bfd10ff7f718f4e7cced66",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -647,7 +647,7 @@
       "symbol": "WBTC-USDC-LP",
       "address": "0xf09386764d08435e209b959c52c3f11872e9a42d",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -655,7 +655,7 @@
       "symbol": "DHoney",
       "address": "0xf4e809042dd21693d914ed4f6b0511f44a1177ba",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -663,7 +663,7 @@
       "symbol": "HONEY",
       "address": "0xf772481eb5cf6fce7cdee66c7033a555ecc32e34",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -671,7 +671,7 @@
       "symbol": "UNI-V2",
       "address": "0xf97813688ae9b63f9f9714874e1a513ea739fade",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -679,7 +679,7 @@
       "symbol": "HONEY-WETH-LP",
       "address": "0xfbe71d98f9d2c658d52a2d72994c717637c3dda1",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 18
     },
     {
@@ -687,7 +687,7 @@
       "symbol": "UNO",
       "address": "0x08247b1c6d6aacf6c655f711661d5810380c8385",
       "logoURI": null,
-      "chain_id": "80084",
+      "chainId": "80084",
       "decimals": 6
     }
   ],

@@ -7,7 +7,7 @@
       "symbol": "DOP",
       "address": "0x4873528341d33ec918c7465f244491acb75bc95f",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -15,7 +15,7 @@
       "symbol": "ETH",
       "address": "0x6e6174697665",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -23,7 +23,7 @@
       "symbol": "UNO",
       "address": "0x650679cc388b2a6a0f862524ad7c636eca1c7c27",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 6
     },
     {
@@ -31,7 +31,7 @@
       "symbol": "COW",
       "address": "0x0625afb445c3b6b7b929342a04a22599fd5dbb59",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": null
     },
     {
@@ -39,7 +39,7 @@
       "symbol": "OKB",
       "address": "0x3f4b6664338f23d2397c953f2ab4ce8031663f80",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -47,7 +47,7 @@
       "symbol": "UNI",
       "address": "0x6727002ad781e0fb768ba11e404965aba89affca",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -55,7 +55,7 @@
       "symbol": "DOP_APE",
       "address": "0x01fa8deeddea8e4e465f158d93e162438d61c9eb",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -63,7 +63,7 @@
       "symbol": "USDT",
       "address": "0x419fe9f14ff3aa22e46ff1d03a73edf3b70a62ed",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 6
     },
     {
@@ -71,7 +71,7 @@
       "symbol": "DOP_PEPE",
       "address": "0x11dc5c441971bb3b2e933e0256e8a6bc6c41a91a",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -79,7 +79,7 @@
       "symbol": "CCIP-LnM",
       "address": "0x466d489b6d36e7e3b824ef491c225f5830e81cc1",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -87,7 +87,7 @@
       "symbol": "UWETH",
       "address": "0x3d5c4ea645557c0d66b31d871a576a80d4045aba",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -95,7 +95,7 @@
       "symbol": "MAGIC",
       "address": "0x013cb2854daad8203c6686682f5d876e5d3de4a2",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -103,7 +103,7 @@
       "symbol": "DOP_TOMI",
       "address": "0xc870a3dc444bf970da13979e9cfac1a01c198eac",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -111,7 +111,7 @@
       "symbol": "RareTron.io",
       "address": "0x54fa517f05e11ffa87f4b22ae87d91cec0c2d7e1",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -119,7 +119,7 @@
       "symbol": "DOP_USDT",
       "address": "0x08394e7e653472694ecd4527656b2881e5701a14",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 6
     },
     {
@@ -127,7 +127,7 @@
       "symbol": "DOP_CHZ",
       "address": "0xbe1d0db61e7562d88ef1fab7436d02b6d00ce728",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -135,7 +135,7 @@
       "symbol": "naAGEUR",
       "address": "0x5315e35ae581e9c67ddc6abc04f8bfe2cd12e7b1",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -143,7 +143,7 @@
       "symbol": "DOP_SHIB",
       "address": "0x1cd40deb4196d219097499031922ff690f9ea813",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -151,7 +151,7 @@
       "symbol": "DOP_USDC",
       "address": "0x63355a2ff725b11b6d82071c9fd710c0dcc71900",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 6
     },
     {
@@ -159,7 +159,7 @@
       "symbol": "HORSE",
       "address": "0x1e8c104d068f22d351859cdbfe41a697a98e6ea2",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -167,7 +167,7 @@
       "symbol": "miweETH",
       "address": "0xb31c077c99e0d61305fcd873a39f974d13bc773c",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -175,7 +175,7 @@
       "symbol": "aiEth",
       "address": "0x4c16d8c078ef6b56700c1be19a336915962df072",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -183,7 +183,7 @@
       "symbol": "wETH",
       "address": "0xfff9976782d46cc05630d1f6ebab18b2324d6b14",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -191,7 +191,7 @@
       "symbol": "BOOK",
       "address": "0x4998f1045f1ff5810278ab4b61fbffadc8ba6cc3",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -199,7 +199,7 @@
       "symbol": "mindEth",
       "address": "0x7451ee8eecf3b8534fa07b15b4b5cee4bcc88778",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -207,7 +207,7 @@
       "symbol": "cUSDC",
       "address": "0x7e92a78f9c728f1ae2226257a4afebfaaa432a4a",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -215,7 +215,7 @@
       "symbol": "0x5555.com",
       "address": "0x687e43d0ab3248bdfebfe3e8f9f1ab2b9fce982d",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -223,7 +223,7 @@
       "symbol": "VanityTron.io",
       "address": "0x489c5cb7fd158b0a9e7975076d758268a756c025",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 0
     },
     {
@@ -231,7 +231,7 @@
       "symbol": "o_______o",
       "address": "0xca2afbd0510e68fac0e304b7a03c2121ef763779",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 0
     },
     {
@@ -239,7 +239,7 @@
       "symbol": "stBTC",
       "address": "0x9406f3d58b0c63f8e55e382ccb9b17bc1697ebe0",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 8
     },
     {
@@ -247,7 +247,7 @@
       "symbol": "DOP_COMP",
       "address": "0xd75edf81cd2109d4264624dbf34bd4dee36f18b9",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -255,7 +255,7 @@
       "symbol": "eETH",
       "address": "0x0305ea0a4b43a12e3d130448e9b4711932231e83",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -263,7 +263,7 @@
       "symbol": "rsETH",
       "address": "0x6370fba5c1d2d33f581e3f7065c371300b512c68",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -271,7 +271,7 @@
       "symbol": "DOP_UNI",
       "address": "0xd7b45cbc28ba9ba8653665d5fb37167a2afe35d9",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -279,7 +279,7 @@
       "symbol": "DAI",
       "address": "0x68194a729c2450ad26072b3d33adacbcef39d574",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -287,7 +287,7 @@
       "symbol": "FUR",
       "address": "0x723639838f063720e5e6c75b4c86fa6ff64f2ddd",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -295,7 +295,7 @@
       "symbol": "TKN",
       "address": "0x94f22536f8e1d30887ef9fb4d8e13328922d86d2",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -303,7 +303,7 @@
       "symbol": "UFT",
       "address": "0x66395d8e88a67e4eca06f440cfac7dfb03ba95e7",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -311,7 +311,7 @@
       "symbol": "STRD",
       "address": "0xf430286a5bbed65f0b83db8595224346a7551e38",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 6
     },
     {
@@ -319,7 +319,7 @@
       "symbol": "Blq",
       "address": "0x01a9663c5b7f59319d970efa1796447136ac7950",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -327,7 +327,7 @@
       "symbol": "doraemon-LP",
       "address": "0x01bebeb49d8c59c4e3c4588ea51bb7015dfa0a92",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -335,7 +335,7 @@
       "symbol": "JAY",
       "address": "0x0212f1b0121f9f84a3674305d8a1bbc19d5e298c",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -343,7 +343,7 @@
       "symbol": "GNG",
       "address": "0x02392ceb610e27cee22746491001a84bafa6d585",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -351,7 +351,7 @@
       "symbol": "AIMC",
       "address": "0x023ab51e18a6b92d24894593a2fa8dfb3c7fcc94",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -359,7 +359,7 @@
       "symbol": "GNG",
       "address": "0x02c5b379743927219120cb3b285500e39c2a32a0",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -367,7 +367,7 @@
       "symbol": "WETH",
       "address": "0x034b7ccf069fe523de04f765fc22356a099a9853",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -375,7 +375,7 @@
       "symbol": "WBTC",
       "address": "0x044aaec1cf19d64e821208d1b862439775069370",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 8
     },
     {
@@ -383,7 +383,7 @@
       "symbol": "YIN",
       "address": "0x047d496b4dafe62d28ce680862e62b0fa55dbef4",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -391,7 +391,7 @@
       "symbol": "stHOPE",
       "address": "0x04c3dc90dd5d90de92fa226697cf17c5875f63af",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -399,7 +399,7 @@
       "symbol": "BLL",
       "address": "0x0505f8ea58319b96bd7fffcec82d29acc78fb57e",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -407,7 +407,7 @@
       "symbol": "DAI",
       "address": "0x058182ec0e78528efb2e119e2a1f9cc5fd45e59b",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -415,7 +415,7 @@
       "symbol": "cWBTC",
       "address": "0x05f5b09e9a6bc96bf3523926e1f75939de9d3e57",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 8
     },
     {
@@ -423,7 +423,7 @@
       "symbol": "NOV",
       "address": "0x064d70900a58ff9e13db112c41ae8e5054f37628",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -431,7 +431,7 @@
       "symbol": "CVE",
       "address": "0x069fc2d36c2039a9d548f51a0646eabbdc83e01f",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -439,7 +439,7 @@
       "symbol": "mkUSD",
       "address": "0x06d5a424cc72b99a6edca798422415865ab237f7",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -447,7 +447,7 @@
       "symbol": "cUSDC",
       "address": "0x075f89eede225edd6ac4d9e85836a7cad371cb2d",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 6
     },
     {
@@ -455,7 +455,7 @@
       "symbol": "HUS",
       "address": "0x076fc3728738140a5888679957a4a828dda93038",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -463,7 +463,7 @@
       "symbol": "cWBTC",
       "address": "0x07b6c168cc11c800bd83c033fb6988231e6cb648",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 8
     },
     {
@@ -471,7 +471,7 @@
       "symbol": "mkUSD",
       "address": "0x0801773a4db31ec9054c17d561b3b1b43a3664dd",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -479,7 +479,7 @@
       "symbol": "mUSD",
       "address": "0x0899c61077496e4e95656397bc3981b21df83486",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -487,7 +487,7 @@
       "symbol": "pDAI",
       "address": "0x09624713ef23e4f830796807c2ca2849fad8fa65",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -495,7 +495,7 @@
       "symbol": "SOUL",
       "address": "0x0968a890b32708bc48d88b033bc2b0450abc7d2f",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -503,7 +503,7 @@
       "symbol": "FSL",
       "address": "0x09cdd88166d4b1bc9b3be27f225d58691689a4e6",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -511,7 +511,7 @@
       "symbol": "cWBTC",
       "address": "0x09f935e51ebe1768c98a1c9c2af62f974bb0bcfb",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 8
     },
     {
@@ -519,7 +519,7 @@
       "symbol": "SALT",
       "address": "0x0ad67269b751f826742f531701100c66efb68fe8",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -527,7 +527,7 @@
       "symbol": "HOPE-SWAP",
       "address": "0x0b3e862ba31510f9801cc01d1a3e28974b532080",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -535,7 +535,7 @@
       "symbol": "ezETH",
       "address": "0x0b6be0dfd8e5a320358e6265a52d786ca03ed347",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -543,7 +543,7 @@
       "symbol": "USDT",
       "address": "0x0bd5f04b456ab34a2ab3e9d556fe5b3a41a0bc8d",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 6
     },
     {
@@ -551,7 +551,7 @@
       "symbol": "aEthEURS",
       "address": "0x0c4b9f731696bed1b0834f48a7f24e513dc3cfd7",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 2
     },
     {
@@ -559,7 +559,7 @@
       "symbol": "nabUSDC",
       "address": "0x0dbd7ff7199593537ad741cce6c63a9fa18661c5",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -567,7 +567,7 @@
       "symbol": "FLX",
       "address": "0x0eb0e5ef5a8a2bc445205451eecddf14bce61fc3",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -575,7 +575,7 @@
       "symbol": "NLX-WL",
       "address": "0x0f04966ce547edd7dc4b1cce7f28a778c0e4e59f",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -583,7 +583,7 @@
       "symbol": "WBTC",
       "address": "0x0f3734e4c0d85c09ab262e7057ab8dc3b9a42a45",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 8
     },
     {
@@ -591,7 +591,7 @@
       "symbol": "TOK",
       "address": "0x10246fe5bf3b06fc688ed4aa1445ff52358ce3a9",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -599,7 +599,7 @@
       "symbol": "USDC",
       "address": "0x10279e6333f9d0ee103f4715b8aaea75be61464c",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 6
     },
     {
@@ -607,7 +607,7 @@
       "symbol": "NEO",
       "address": "0x10bb478e563936d43d83f09ee59c4b9bdad04b71",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -615,7 +615,7 @@
       "symbol": "SyBNB",
       "address": "0x119252a9e6bc074ab305689b0f21917f22b438ce",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -623,7 +623,7 @@
       "symbol": "naWBTC",
       "address": "0x12d01fca294b21bc64de4149090a9452ef37b44c",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -631,7 +631,7 @@
       "symbol": "WETH",
       "address": "0x12e2ca2cc70f1742eda01c2980ac43ca5f12cbfd",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -639,7 +639,7 @@
       "symbol": "ezETH",
       "address": "0x3b57e3b2531a376ee5b248943bb6de99e333bb5d",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -647,7 +647,7 @@
       "symbol": "WETH",
       "address": "0x1ef5f52bdbe11af2377c58ecc914a8c72ea807cf",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -655,7 +655,7 @@
       "symbol": "GEAR",
       "address": "0x1a2d66d21c5d2d1e80d2ebbe73bdc1f5d8a6c52c",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -663,7 +663,7 @@
       "symbol": "ETHx",
       "address": "0xfa8faee8a03d2c0cd96bac49910eefe603d6c2a8",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -671,7 +671,7 @@
       "symbol": "cWBTC",
       "address": "0x13c713dadcff7d0bb122206a3beb540360358ef1",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 8
     },
     {
@@ -679,7 +679,7 @@
       "symbol": "BUNNI-WETH-GHO-LP",
       "address": "0x0021c1948b470167430410c04236a969c34659f8",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -687,7 +687,7 @@
       "symbol": "XASAD",
       "address": "0x015225038e0571c04c1a0c8d981876d6b40ab4bc",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -695,7 +695,7 @@
       "symbol": "ss",
       "address": "0x021add667ff1cf6e84da5e6e2852cab8bb63ce77",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -703,7 +703,7 @@
       "symbol": "wstETH",
       "address": "0x1a0cdabee2c57c965b8bbc037671e458805dfdd5",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -711,7 +711,7 @@
       "symbol": "MSEQ",
       "address": "0x22c1317fe43132b22860e8b465548613d6151a9f",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -719,7 +719,7 @@
       "symbol": "BLL",
       "address": "0x39e12053803898211f21047d56017986e0f070c1",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -727,7 +727,7 @@
       "symbol": "USDC",
       "address": "0x45df5e83b9400421cb3b262b31ee7236b61219d5",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 6
     },
     {
@@ -735,7 +735,7 @@
       "symbol": "ATLA",
       "address": "0x45e9f834539bc2a0936f184779ced638c9b26459",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -743,7 +743,7 @@
       "symbol": "BTC",
       "address": "0x66194f6c999b28965e0303a84cb8b797273b6b8b",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 8
     },
     {
@@ -751,7 +751,7 @@
       "symbol": "USDC",
       "address": "0x74ce1e12998fb861a612cd6c65244f8620e2937a",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 6
     },
     {
@@ -759,7 +759,7 @@
       "symbol": "APE",
       "address": "0x94f1e0a6e02092bf33efffee9bc4b9b70c3c9ffd",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -767,7 +767,7 @@
       "symbol": "BERA",
       "address": "0xa01afff94b800267368db6710311559ef0d70248",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -775,7 +775,7 @@
       "symbol": "USDT",
       "address": "0xbdead2a70fe794d2f97b37efde497e68974a296d",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -783,7 +783,7 @@
       "symbol": "USDG",
       "address": "0xbfdb9ad842899d2f51928dcba316e176d314f0b9",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     },
     {
@@ -791,7 +791,7 @@
       "symbol": "USDT",
       "address": "0xe90a57a45f1eae578f5aec8eed5ba8fc6f55ef65",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 6
     },
     {
@@ -799,7 +799,7 @@
       "symbol": "USDT",
       "address": "0xf7b28ff413994baa8e3c13f008bede96fc734774",
       "logoURI": null,
-      "chain_id": "11155111",
+      "chainId": "11155111",
       "decimals": 18
     }
   ],
