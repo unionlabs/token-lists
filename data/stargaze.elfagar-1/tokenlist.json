@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Stargaze Elfagar Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-01-22T16:00:00Z",
+  "tokens": [
+        {
+            "chainId": "elgafar-1", 
+            "address": "ustars", 
+            "symbol": "STARS",
+            "decimals": 6,
+            "name": "Stargaze Testnet",
+            "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+        },
+        {
+            "chainId": "elgafar-1", 
+            "address": "factory/stars153w5xhuqu3et29lgqk4dsynj6gjn96lr33wx4e/uom", 
+            "symbol": "OM",
+            "decimals": 6,
+            "name": "MANTRA",
+            "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg"
+        },
+        {
+            "chainId": "elgafar-1", 
+            "address": "factory/stars153w5xhuqu3et29lgqk4dsynj6gjn96lr33wx4e/utia", 
+            "symbol": "TIA",
+            "decimals": 6,
+            "name": "Celestia",
+            "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+        },
+        {
+            "chainId": "elgafar-1", 
+            "address": "factory/stars142fm3lhv2x9ymvv8ze2udefec4wpf0czv4dsgjn0vmccmdt09tcqzt2ghk/bglUSDC", 
+            "symbol": "bglUSDC",
+            "decimals": 6,
+            "name": "bglUSDC",
+            "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/bglUSDC.png"
+        },
+        {
+            "chainId": "elgafar-1", 
+            "address": "factory/stars153w5xhuqu3et29lgqk4dsynj6gjn96lr33wx4e/uatom", 
+            "symbol": "ATOM",
+            "decimals": 6,
+            "name": "ATOM",
+            "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        }
+    ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
