@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Osmosis Testnet Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-01-24T16:00:00Z",
+  "tokens": [
+    {
+      "chainId": "osmo-test-5",
+      "address": "uosmo",
+      "symbol": "OSMO",
+      "decimals": 6,
+      "name": "Osmosis",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+    },
+    {
+      "chainId": "osmo-test-5",
+      "address": "uion",
+      "symbol": "ION",
+      "decimals": 6,
+      "name": "Ion",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.png"
+    },
+    {
+      "chainId": "osmo-test-5",
+      "address": "ibc/9FF2B7A5F55038A7EE61F4FD6749D9A648B48E89830F2682B67B5DC158E2753C",
+      "symbol": "ATOM",
+      "decimals": 6,
+      "name": "Cosmos Hub Atom",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png"
+    },
+    {
+      "chainId": "osmo-test-5",
+      "address": "ibc/AD59D59CFB0E628E73C798415F823AB5B6257C2FE4BF67DBB5D6A677B2686E82",
+      "symbol": "AKT",
+      "decimals": 6,
+      "name": "Akash Network",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png"
+    },
+    {
+      "chainId": "osmo-test-5",
+      "address": "ibc/2164BDB48DE5501430E71286448D87C6D2240EC0E078CF113CAB85E21A352BB0",
+      "symbol": "aUSDC.axl",
+      "decimals": 6,
+      "name": "USD Coin (Axelar)",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
