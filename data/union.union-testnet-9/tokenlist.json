@@ -12,6 +12,14 @@
       "name": "UNO Coin",
       "chainId": "union-testnet-9",
       "logoURI": ""
+    },
+    {
+      "decimals": 6,
+      "symbol": "CLOWN",
+      "address": "factory/union12qdvmw22n72mem0ysff3nlyj2c76cuy4x60lua/clown",
+      "name": "CLOWN Coin (test)",
+      "chainId": "union-testnet-9",
+      "logoURI": ""
     }
   ],
   "version": {
