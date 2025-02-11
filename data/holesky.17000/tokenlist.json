@@ -12,6 +12,14 @@
             "decimals": 18,
             "name": "ChainLink Token",
             "logoURI": ""
+        },
+        {
+            "chainId": 17000,
+            "address": "0x09B8aE6BB8D447bF910068E6c246A270F42b41be",
+            "symbol": "MTK",
+            "decimals": 18,
+            "name": "Loadtest My Token",
+            "logoURI": ""
         }
     ],
   "version": {
