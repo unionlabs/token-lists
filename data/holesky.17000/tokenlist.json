@@ -15,7 +15,7 @@
         },
         {
             "chainId": 17000,
-            "address": "0x09B8aE6BB8D447bF910068E6c246A270F42b41be",
+            "address": "0x78931dde3e4e980ff7529c3f5eb4190b5bcad22f",
             "symbol": "MTK",
             "decimals": 18,
             "name": "Loadtest My Token",
