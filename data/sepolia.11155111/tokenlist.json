@@ -108,6 +108,14 @@
             "decimals": 18,
             "name": "Loadtest My Token",
             "logoURI": ""
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x09E1668af67CC7AfCE10AcDA562ff58d836Dc656",
+            "symbol": "EUNO",
+            "decimals": 18,
+            "name": "Escher liquid union token",
+            "logoURI": ""
         }
     ],
   "version": {
