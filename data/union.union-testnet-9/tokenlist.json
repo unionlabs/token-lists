@@ -20,6 +20,14 @@
       "name": "CLOWN Coin (test)",
       "chainId": "union-testnet-9",
       "logoURI": ""
+    },
+    {
+      "decimals": 6,
+      "symbol": "EUNO",
+      "address": "union1njygapqdpnkaz5m64rh8038p4uh3xty78ktcunzj946hc4ft7s6qeu0u3f",
+      "name": "EUNO coin",
+      "chainId": "union-testnet-9",
+      "logoURI": ""
     }
   ],
   "version": {
