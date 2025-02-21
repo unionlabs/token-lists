@@ -1,10 +1,10 @@
 {
-  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
-  "name": "Holesky 17000 Token List",
-  "keywords": [],
-  "tags": {},
-  "timestamp": "2025-01-15T16:00:00Z",
-  "tokens": [
+    "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+    "name": "Holesky 17000 Token List",
+    "keywords": [],
+    "tags": {},
+    "timestamp": "2025-01-15T16:00:00Z",
+    "tokens": [
         {
             "chainId": 17000,
             "address": "0x685cE6742351ae9b618F383883D6d1e0c5A31B4B",
@@ -20,11 +20,19 @@
             "decimals": 18,
             "name": "Loadtest My Token",
             "logoURI": ""
+        },
+        {
+            "chainId": 17000,
+            "address": "0x94373a4919b3240d86ea41593d5eba789fef3848",
+            "symbol": "WETH",
+            "decimals": 18,
+            "name": "Wrapped Ether",
+            "logoURI": ""
         }
     ],
-  "version": {
-    "major": 1,
-    "minor": 0,
-    "patch": 0
-  }
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+    }
 }
