@@ -20,6 +20,14 @@
       "name": "CLOWN Coin (test)",
       "chainId": "union-testnet-9",
       "logoURI": ""
+    },
+    {
+      "decimals": 0,
+      "symbol": "OMAR",
+      "address": "union1vu9he2ldfl6uf4wh8h4llmt8n8pdtlgrvmkpdmqtzew4culkuv9sxxke4q",
+      "name": "omar",
+      "chainId": "union-testnet-9",
+      "logoURI": ""
     }
   ],
   "version": {
