@@ -3,10 +3,10 @@
   "tags": {},
   "tokens": [
     {
-      "name": "STRD",
+      "name": "Stride",
       "symbol": "STRD",
-      "address": "0x7573747264",
-      "logoURI": null,
+      "address": "ustrd",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg",
       "chainId": "stride-internal-1",
       "decimals": 6
     },
@@ -35,18 +35,18 @@
       "decimals": 18
     },
     {
-      "name": "Liquid Staked dYdX V4 Testnet Token",
-      "symbol": "stdv4tnt",
-      "address": "0x737461647634746e74",
-      "logoURI": null,
+      "name": "Stride's liquid staked DYDX",
+      "symbol": "stDV4TNT",
+      "address": "stadv4tnt",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg",
       "chainId": "stride-internal-1",
       "decimals": 18
     },
     {
-      "name": "stTIA",
+      "name": "Stride's liquid staked TIA",
       "symbol": "stTIA",
-      "address": "0x737475746961",
-      "logoURI": null,
+      "address": "stutia",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg",
       "chainId": "stride-internal-1",
       "decimals": 6
     }
