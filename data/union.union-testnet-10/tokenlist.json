@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Union Testnet 10 Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-03-27T17:25:00Z",
+  "tokens": [
+    {
+      "decimals": 6,
+      "symbol": "UNO",
+      "address": "muno",
+      "name": "UNO Coin",
+      "chainId": "union-testnet-10",
+      "logoURI": ""
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
