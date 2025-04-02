@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+    "name": "Bob Mainnet 60808 Token List",
+    "keywords": [],
+    "tags": {},
+    "timestamp": "2025-01-15T16:00:00Z",
+    "tokens": [
+        {
+            "chainId": 60808,
+            "address": "0x94373a4919b3240d86ea41593d5eba789fef3848",
+            "symbol": "WETH",
+            "decimals": 18,
+            "name": "Wrapped Ether",
+            "logoURI": ""
+        }
+    ],
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+    }
+}
