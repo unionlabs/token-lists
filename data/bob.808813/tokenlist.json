@@ -12,6 +12,14 @@
             "decimals": 18,
             "name": "Wrapped Ether",
             "logoURI": ""
+        },
+        {
+            "chainId": 808813,
+            "address": "0x2bE4bf88014a6574CB10df3b7826bE8356aa2499",
+            "symbol": "uniBTCd",
+            "decimals": 18,
+            "name": "uniBTC Demo",
+            "logoURI": ""
         }
     ],
     "version": {
