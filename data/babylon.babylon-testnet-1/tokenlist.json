@@ -12,6 +12,14 @@
       "decimals": 6,
       "name": "Babylon BBN",
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg"
+    },
+    {
+      "chainId": "bbn-test-5",
+      "address": "bbn1nznl7srgmtx9juevnrasr2srslqzze3083g30w8ug96f96rjpeuqg8f6uw",
+      "symbol": "uniBTCd",
+      "decimals": 6,
+      "name": "uniBTC",
+      "logoURI": ""
     }
   ],
   "version": {
