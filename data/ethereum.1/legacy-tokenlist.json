@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Ethereum Mainnet 1 Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-01-15T16:00:00Z",
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568",
+      "symbol": "uniBTC",
+      "decimals": 18,
+      "name": "Universal BTC",
+      "logoURI": ""
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
