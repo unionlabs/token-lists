@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Berachain Mainnet 80094 Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-01-15T16:00:00Z",
+  "tokens": [
+    {
+      "chainId": 80094,
+      "address": "0xc3827a4bc8224ee2d116637023b124ced6db6e90",
+      "symbol": "uniBTC",
+      "decimals": 18,
+      "name": "Universal BTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/assets/uniBTC/berachain.png"
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
