@@ -11,7 +11,15 @@
       "symbol": "uniBTC",
       "decimals": 18,
       "name": "Universal BTC",
-      "logoURI": ""
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4b6d20acfc764ef6b60f0339e7cbad83284e7d6e",
+      "symbol": "yBTC",
+      "decimals": 18,
+      "name": "pSTAKE Staked BTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/yBTC.svg"
     }
   ],
   "version": {

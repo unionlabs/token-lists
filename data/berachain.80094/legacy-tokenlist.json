@@ -11,7 +11,7 @@
       "symbol": "uniBTC",
       "decimals": 18,
       "name": "Universal BTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/assets/uniBTC/berachain.png"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
     }
   ],
   "version": {
