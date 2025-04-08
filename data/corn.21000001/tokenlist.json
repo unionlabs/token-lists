@@ -12,6 +12,14 @@
             "decimals": 18,
             "name": "uniBTC Demo",
             "logoURI": ""
+        },
+        {
+            "chainId": 21000001,
+            "address": "0xda5dDd7270381A7C2717aD10D1c0ecB19e3CDFb2",
+            "symbol": "WBTCN",
+            "decimals": 18,
+            "name": "Wrapped Bitcorn",
+            "logoURI": ""
         }
     ],
     "version": {
