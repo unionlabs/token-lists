@@ -18,8 +18,8 @@
       "address": "bbn1nznl7srgmtx9juevnrasr2srslqzze3083g30w8ug96f96rjpeuqg8f6uw",
       "symbol": "uniBTCd",
       "decimals": 6,
-      "name": "uniBTC",
-      "logoURI": ""
+      "name": "uniBTC Demo",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
     }
   ],
   "version": {
