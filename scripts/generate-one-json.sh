@@ -4,17 +4,27 @@ set -eou pipefail
 
 output="{"
 
+# Flag to check if we added any tokens
+first=true
+
 for dir in data/*/; do
   token_list_dir=$(basename "$dir")
   json_file="$dir/tokenlist.json"
   
   if [ -f "$json_file" ]; then
     json_content=$(jq -c . "$json_file")
-    output+="\"$token_list_dir\": $json_content,"
+    
+    if [ "$first" = true ]; then
+      first=false
+    else
+      output+=","
+    fi
+    
+    output+="\"$token_list_dir\": $json_content"
   fi
 done
 
-# Remove the trailing comma and close the JSON object
-output="${output%,}}"
+# Close the JSON object
+output+="}"
 
 echo "$output" | jq .
