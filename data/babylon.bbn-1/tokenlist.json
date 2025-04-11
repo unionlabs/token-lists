@@ -8,9 +8,9 @@
     {
       "chainId": "bbn-1",
       "address": "ubbn",
-      "symbol": "BBN",
+      "symbol": "BABY",
       "decimals": 6,
-      "name": "Babylon BBN",
+      "name": "Babylon BABY",
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg"
     },
     {
