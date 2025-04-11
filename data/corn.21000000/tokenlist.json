@@ -1,0 +1,150 @@
+{
+    "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+    "name": "Corn Maizenet Token List",
+    "keywords": [],
+    "tags": {},
+    "timestamp": "2025-04-11T16:00:00Z",
+    "tokens": [
+      {
+        "chainId": 21000000,
+        "address": "0x44f49ff0da2498bCb1D3Dc7C0f999578F67FD8C6",
+        "symbol": "CORN",
+        "decimals": 18,
+        "name": "Corn",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0xda5dDd7270381A7C2717aD10D1c0ecB19e3CDFb2",
+        "symbol": "wBTCN",
+        "decimals": 18,
+        "name": "Wrapped Bitcorn",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0xda5dDd7270381A7C2717aD10D1c0ecB19e3CDFb2",
+        "symbol": "wBTCN",
+        "decimals": 18,
+        "name": "Wrapped Bitcorn",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "symbol": "USDT0",
+        "decimals": 6,
+        "name": "Tether",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+        "symbol": "LBTC",
+        "decimals": 8,
+        "name": "Lombard BTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
+        "symbol": "pumpBTC",
+        "decimals": 8,
+        "name": "pumpBTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0x93919784C523f39CACaa98Ee0a9d96c3F32b593e",
+        "symbol": "uniBTC",
+        "decimals": 8,
+        "name": "Bedrock BTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0xf6718b2701D4a6498eF77D7c152b2137Ab28b8A3",
+        "symbol": "stBTC",
+        "decimals": 18,
+        "name": "Lorenzo BTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0x6A9A65B84843F5fD4aC9a0471C4fc11AFfFBce4a",
+        "symbol": "enzoBTC",
+        "decimals": 8,
+        "name": "Lorenzo Wrapped Bitcoin",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
+        "symbol": "solvBTC",
+        "decimals": 18,
+        "name": "Solv BTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
+        "symbol": "SolvBTC.BBN",
+        "decimals": 18,
+        "name": "Solv BTC Babylon",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0x09DEF5aBc67e967d54E8233A4b5EBBc1B3fbE34b",
+        "symbol": "waBTC",
+        "decimals": 18,
+        "name": "Wrapped aBTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0x76b0D27F268f405584ACA51b371b144dD5b0a155",
+        "symbol": "aBTC",
+        "decimals": 18,
+        "name": "aBTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0x85aDfA60dDf86b67E6fD493Bd2c774b2eD772D14",
+        "symbol": "weETH",
+        "decimals": 18,
+        "name": "Wrapped eETH",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0x1b3757d5EE281Eaf6a9c8E5D9b8488b4475Aa955",
+        "symbol": "CRV",
+        "decimals": 18,
+        "name": "Curve DAO Token",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0xEAEdD2B1b3F0fEC6388A4d6b2fE500B59Fd9f755",
+        "symbol": "crvUSD",
+        "decimals": 18,
+        "name": "Curve.Fi USD Stablecoin",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0xDF0B24095e15044538866576754F3C964e902Ee6",
+        "symbol": "USDC.e",
+        "decimals": 6,
+        "name": "Bridged USDC (Corn)",
+        "logoURI": ""
+      }
+    ],
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "patch": 0
+    }
+  }
