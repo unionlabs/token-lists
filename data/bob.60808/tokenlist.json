@@ -12,6 +12,54 @@
             "decimals": 18,
             "name": "Wrapped Ether",
             "logoURI": ""
+        },
+        {
+            "chainId": 60808,
+            "address": "0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3",
+            "symbol": "WBTC",
+            "decimals": 8,
+            "name": "Wrapped BTC (WBTC)",
+            "logoURI": ""
+        },
+        {
+            "chainId": 60808,
+            "address": "0xb4255533Ad74A25A83d17154cB48A287E8f6A811",
+            "symbol": "sbETH",
+            "decimals": 8,
+            "name": "sb ETH",
+            "logoURI": ""
+        },
+        {
+            "chainId": 60808,
+            "address": "0x05D032ac25d322df992303dCa074EE7392C117b9",
+            "symbol": "USDT",
+            "decimals": 6,
+            "name": "Tether USD",
+            "logoURI": ""
+        },
+        {
+            "chainId": 60808,
+            "address": "0x05D032ac25d322df992303dCa074EE7392C117b9",
+            "symbol": "USDT",
+            "decimals": 6,
+            "name": "Tether USD",
+            "logoURI": ""
+        },
+        {
+            "chainId": 60808,
+            "address": "0xd7C6CC5AEf7396182c5D7EbdAc66fF674F3DdcF4",
+            "symbol": "seETH",
+            "decimals": 8,
+            "name": "Segment ETH",
+            "logoURI": ""
+        },
+        {
+            "chainId": 60808,
+            "address": "0x6265C05158f672016B771D6Fb7422823ed2CbcDd",
+            "symbol": "seWBTC",
+            "decimals": 8,
+            "name": "Segment Wrapped BTC",
+            "logoURI": ""
         }
     ],
     "version": {

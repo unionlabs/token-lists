@@ -8,9 +8,9 @@
     {
       "chainId": "bbn-test-5",
       "address": "ubbn",
-      "symbol": "BBN",
+      "symbol": "BABY",
       "decimals": 6,
-      "name": "Babylon BBN",
+      "name": "Babylon Testnet Token",
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg"
     },
     {
