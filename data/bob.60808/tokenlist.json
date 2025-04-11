@@ -60,6 +60,14 @@
             "decimals": 8,
             "name": "Segment Wrapped BTC",
             "logoURI": ""
+        },
+        {
+            "chainId": 60808,
+            "address": "0xe53dCec07d16D88e386AE0710E86d9a400f83c31",
+            "symbol": "BABY",
+            "decimals": 6,
+            "name": "Babylon BABY",
+            "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg"
         }
     ],
     "version": {
