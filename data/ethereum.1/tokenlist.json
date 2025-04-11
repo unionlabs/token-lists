@@ -108,6 +108,14 @@
         "decimals": 18,
         "name": "Wrapped Ether",
         "logoURI": ""
+      },
+      {
+        "chainId": 1,
+        "address": "0xb1e12802831da99d2d47b6a55049d69bf7de0e3c",
+        "symbol": "oBTC",
+        "decimals": 8,
+        "name": "Obelisk Staked BTC",
+        "logoURI": ""
       }
     ],
     "version": {
