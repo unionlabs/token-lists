@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Babylon Mainnet Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-04-11T16:00:00Z",
+  "tokens": [
+    {
+      "chainId": "bbn-1",
+      "address": "ubbn",
+      "symbol": "BBN",
+      "decimals": 6,
+      "name": "Babylon BBN",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg"
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

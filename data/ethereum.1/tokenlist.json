@@ -1,0 +1,118 @@
+{
+    "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+    "name": "Ethereum Mainnet 1 Token List",
+    "keywords": [],
+    "tags": {},
+    "timestamp": "2025-01-15T16:00:00Z",
+    "tokens": [
+      {
+        "chainId": 1,
+        "address": "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568",
+        "symbol": "uniBTC",
+        "decimals": 18,
+        "name": "Universal BTC",
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
+      },
+      {
+        "chainId": 1,
+        "address": "0x4b6d20acfc764ef6b60f0339e7cbad83284e7d6e",
+        "symbol": "yBTC",
+        "decimals": 18,
+        "name": "yBTC",
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/yBTC.svg"
+      },
+      {
+        "chainId": 1,
+        "address": "0x8236a87084f8b84306f72007f36f2618a5634494",
+        "symbol": "LBTC",
+        "decimals": 8,
+        "name": "Lombard Staked BTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 1,
+        "address": "0xd9D920AA40f578ab794426F5C90F6C731D159DEf",
+        "symbol": "xSolvBTC",
+        "decimals": 18,
+        "name": "xSolvBTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 1,
+        "address": "0x7A56E1C57C7475CCf742a1832B028F0456652F97",
+        "symbol": "Solv BTC",
+        "decimals": 18,
+        "name": "SolvBTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 1,
+        "address": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
+        "symbol": "PumpBTC",
+        "decimals": 8,
+        "name": "PumpBTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 1,
+        "address": "0xf6718b2701D4a6498eF77D7c152b2137Ab28b8A3",
+        "symbol": "stBTC",
+        "decimals": 18,
+        "name": "Lorenzo stBTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 1,
+        "address": "0x09DEF5aBc67e967d54E8233A4b5EBBc1B3fbE34b",
+        "symbol": "waBTC",
+        "decimals": 18,
+        "name": "Wrapped aBTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 1,
+        "address": "0xbdf245957992bfbc62b07e344128a1eec7b7ee3f",
+        "symbol": "mBTC",
+        "decimals": 8,
+        "name": "BabyPie Staked BTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 1,
+        "address": "0x9356f6d95b8E109F4b7Ce3E49D672967d3B48383",
+        "symbol": "kBTC",
+        "decimals": 18,
+        "name": "Kinza Staked BTC",
+        "logoURI": ""
+      },
+      {
+        "chainId": 1,
+        "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "symbol": "USDT0",
+        "decimals": 6,
+        "name": "Tether USD",
+        "logoURI": ""
+      },
+      {
+        "chainId": 1,
+        "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "symbol": "wstETH",
+        "decimals": 18,
+        "name": "Wrapped liquid staked Ether 2.0",
+        "logoURI": ""
+      },
+      {
+        "chainId": 1,
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "symbol": "WETH",
+        "decimals": 18,
+        "name": "Wrapped Ether",
+        "logoURI": ""
+      }
+    ],
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "patch": 0
+    }
+  }
