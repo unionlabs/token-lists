@@ -19,7 +19,7 @@
         "symbol": "yBTC",
         "decimals": 18,
         "name": "yBTC",
-        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/yBTC.svg"
+        "logoURI": ""
       },
       {
         "chainId": 1,
@@ -27,7 +27,7 @@
         "symbol": "LBTC",
         "decimals": 8,
         "name": "Lombard Staked BTC",
-        "logoURI": ""
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg"
       },
       {
         "chainId": 1,
@@ -43,7 +43,7 @@
         "symbol": "Solv BTC",
         "decimals": 18,
         "name": "SolvBTC",
-        "logoURI": ""
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/SolvBTC.svg"
       },
       {
         "chainId": 1,
@@ -51,7 +51,7 @@
         "symbol": "PumpBTC",
         "decimals": 8,
         "name": "PumpBTC",
-        "logoURI": ""
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/PumpBTC.svg"
       },
       {
         "chainId": 1,
@@ -59,7 +59,7 @@
         "symbol": "stBTC",
         "decimals": 18,
         "name": "Lorenzo stBTC",
-        "logoURI": ""
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/stBTC.svg"
       },
       {
         "chainId": 1,
@@ -107,7 +107,7 @@
         "symbol": "WETH",
         "decimals": 18,
         "name": "Wrapped Ether",
-        "logoURI": ""
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WETH.svg"
       },
       {
         "chainId": 1,

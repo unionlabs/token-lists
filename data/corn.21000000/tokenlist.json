@@ -88,9 +88,9 @@
       {
         "chainId": 21000000,
         "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
-        "symbol": "SolvBTC.BBN",
+        "symbol": "xSolvBTC",
         "decimals": 18,
-        "name": "Solv BTC Babylon",
+        "name": "xSolvBTC",
         "logoURI": ""
       },
       {
@@ -139,6 +139,14 @@
         "symbol": "USDC.e",
         "decimals": 6,
         "name": "Bridged USDC (Corn)",
+        "logoURI": ""
+      },
+      {
+        "chainId": 21000000,
+        "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "symbol": "BTCN",
+        "decimals": 18,
+        "name": "Bitcorn",
         "logoURI": ""
       }
     ],
