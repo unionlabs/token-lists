@@ -26,7 +26,7 @@
         "address": "0x8236a87084f8b84306f72007f36f2618a5634494",
         "symbol": "LBTC",
         "decimals": 8,
-        "name": "Lombard Staked BTC",
+        "name": "Lombard Staked Bitcoin",
         "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg"
       },
       {
@@ -48,9 +48,9 @@
       {
         "chainId": 1,
         "address": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
-        "symbol": "PumpBTC",
+        "symbol": "pumpBTC",
         "decimals": 8,
-        "name": "PumpBTC",
+        "name": "pumpBTC",
         "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/PumpBTC.svg"
       },
       {
@@ -123,4 +123,4 @@
       "minor": 0,
       "patch": 0
     }
-  }
+}
