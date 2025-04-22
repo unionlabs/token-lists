@@ -51,7 +51,7 @@
         "symbol": "pumpBTC",
         "decimals": 8,
         "name": "pumpBTC",
-        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/PumpBTC.svg"
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/pumpBTC.svg"
       },
       {
         "chainId": 1,

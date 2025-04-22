@@ -11,7 +11,7 @@
       "symbol": "BABY",
       "decimals": 6,
       "name": "Babylon BABY",
-      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/BABY.svg"
     },
     {
       "chainId": "bbn-1",
@@ -19,7 +19,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "name": "USDC",
-      "logoURI": ""
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/USDC.svg"
     },
     {
       "chainId": "bbn-1",
@@ -27,7 +27,71 @@
       "symbol": "LBTC",
       "decimals": 8,
       "name": "Lombard Staked BTC",
-      "logoURI": ""
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1s7jzz7cyuqmy5xpr07yepka5ngktexsferu2cr4xeww897ftj77sv30f5s",
+      "symbol": "eBABY",
+      "decimals": 8,
+      "name": "eBABY",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/eBABY.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn17y5zvse30629t7r37xsdj73xsqp7qsdr7gpnh966wf5aslpn66rq5ekwsz",
+      "symbol": "cBABY",
+      "decimals": 6,
+      "name": "Cube Baby",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/cBABY.png"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1300se0vwue77hn6s8wph64ey6d55zaf48jrveg9wafsquncn3e4scssgvd",
+      "symbol": "WETH",
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WETH.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1tyvxlr8qjt7yx48lhhle7xzxfxkyqwzkaxey3jekrl0gql260jlqlxgfst",
+      "symbol": "SolvBTC",
+      "decimals": 18,
+      "name": "Solv BTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/SolvBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks",
+      "symbol": "stBTC",
+      "decimals": 18,
+      "name": "Lorenzo stBTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/stBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d",
+      "symbol": "pumpBTC",
+      "decimals": 8,
+      "name": "pumpBTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/pumpBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1fkz8dcvsqyfy3apfh8ufexdn4ag00w5jts99zjw9nkjue0zhs4ts6hfdz2",
+      "symbol": "uniBTC",
+      "decimals": 8,
+      "name": "uniBTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy",
+      "symbol": "LBTC",
+      "decimals": 8,
+      "name": "Lombard Staked Bitcoin",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg"
     }
   ],
   "version": {
