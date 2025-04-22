@@ -16,10 +16,10 @@
       {
         "chainId": 1,
         "address": "0x4b6d20acfc764ef6b60f0339e7cbad83284e7d6e",
-        "symbol": "yBTC",
-        "decimals": 18,
-        "name": "yBTC",
-        "logoURI": ""
+        "symbol": "YBTC",
+        "decimals": 8,
+        "name": "YBTC",
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/YBTC.svg"
       },
       {
         "chainId": 1,
@@ -35,7 +35,7 @@
         "symbol": "xSolvBTC",
         "decimals": 18,
         "name": "xSolvBTC",
-        "logoURI": ""
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/xSolvBTC.svg"
       },
       {
         "chainId": 1,
@@ -75,23 +75,23 @@
         "symbol": "mBTC",
         "decimals": 8,
         "name": "BabyPie Staked BTC",
-        "logoURI": ""
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/mBTC.png"
       },
       {
         "chainId": 1,
         "address": "0x9356f6d95b8E109F4b7Ce3E49D672967d3B48383",
         "symbol": "kBTC",
         "decimals": 18,
-        "name": "Kinza Staked BTC",
-        "logoURI": ""
+        "name": "Kinza Babylon Staked BTC",
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/kBTC.svg"
       },
       {
         "chainId": 1,
         "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "symbol": "USDT0",
+        "symbol": "USDT",
         "decimals": 6,
         "name": "Tether USD",
-        "logoURI": ""
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/USDT.svg"
       },
       {
         "chainId": 1,
@@ -99,7 +99,7 @@
         "symbol": "wstETH",
         "decimals": 18,
         "name": "Wrapped liquid staked Ether 2.0",
-        "logoURI": ""
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/wstETH.svg"
       },
       {
         "chainId": 1,
@@ -116,6 +116,14 @@
         "decimals": 8,
         "name": "Obelisk Staked BTC",
         "logoURI": ""
+      },
+      {
+        "chainId": 1,
+        "address": "0xF7De2B7afdb07AA5dD143180Ed758165821E076e",
+        "symbol": "satUniBTC",
+        "decimals": 8,
+        "name": "Satlayer uniBTC",
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
       }
     ],
     "version": {
