@@ -92,6 +92,14 @@
       "decimals": 8,
       "name": "Lombard Staked Bitcoin",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x",
+      "symbol": "satUniBTC",
+      "decimals": 8,
+      "name": "Satlayer uniBTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
     }
   ],
   "version": {
