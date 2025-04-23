@@ -96,9 +96,9 @@
     {
       "chainId": "bbn-1",
       "address": "bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x",
-      "symbol": "satUniBTC",
+      "symbol": "satUniBTC.e",
       "decimals": 8,
-      "name": "Satlayer uniBTC",
+      "name": "SatLayer uniBTC Bridged",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
     }
   ],
