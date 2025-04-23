@@ -120,9 +120,9 @@
       {
         "chainId": 1,
         "address": "0xF7De2B7afdb07AA5dD143180Ed758165821E076e",
-        "symbol": "satUniBTC.e",
+        "symbol": "satUniBTC",
         "decimals": 8,
-        "name": "SatLayer uniBTC Bridged",
+        "name": "Satlayer uniBTC",
         "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
       }
     ],
