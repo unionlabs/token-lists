@@ -11,7 +11,7 @@
             "symbol": "WETH",
             "decimals": 18,
             "name": "Wrapped Ether",
-            "logoURI": ""
+            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WETH.svg"
         },
         {
             "chainId": 808813,
@@ -19,7 +19,7 @@
             "symbol": "uniBTCd",
             "decimals": 18,
             "name": "uniBTC Demo",
-            "logoURI": ""
+            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
         }
     ],
     "version": {

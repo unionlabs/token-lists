@@ -11,7 +11,7 @@
       "symbol": "BABY",
       "decimals": 6,
       "name": "Babylon Testnet Token",
-      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/BABY.svg"
     },
     {
       "chainId": "bbn-test-5",
@@ -19,7 +19,7 @@
       "symbol": "uniBTCd",
       "decimals": 6,
       "name": "uniBTC",
-      "logoURI": ""
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
     }
   ],
   "version": {

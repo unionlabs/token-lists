@@ -11,7 +11,7 @@
             "symbol": "uniBTCd",
             "decimals": 18,
             "name": "uniBTC Demo",
-            "logoURI": ""
+            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
         },
         {
             "chainId": 21000001,
@@ -19,7 +19,7 @@
             "symbol": "WBTCN",
             "decimals": 18,
             "name": "Wrapped Bitcorn",
-            "logoURI": ""
+            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WBTCN.svg"
         }
     ],
     "version": {

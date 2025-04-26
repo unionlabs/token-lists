@@ -6,108 +6,60 @@
     "timestamp": "2025-01-15T16:00:00Z",
     "tokens": [
         {
-            "chainId": 11155111,
+            "chainId": "11155111",
             "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
             "symbol": "USDC",
             "decimals": 6,
             "name": "USDC",
-            "logoURI": ""
+            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/USDC.svg"
         },
         {
-            "chainId": 11155111,
-            "address": "0x523C8591Fbe215B5aF0bEad65e65dF783A37BCBC",
-            "symbol": "USDT",
-            "decimals": 6,
-            "name": "USDT (not sure)",
-            "logoURI": ""
-        },
-        {
-            "chainId": 11155111,
+            "chainId": "11155111",
             "address": "0x779877A7B0D9E8603169DdbD7836e478b4624789",
             "symbol": "LINK",
             "decimals": 18,
             "name": "ChainLink Token",
-            "logoURI": ""
+            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LINK.svg"
         },
         {
-            "chainId": 11155111,
-            "address": "0x464C8ec100F2F42fB4e42E07E203DA2324f9FC67",
-            "symbol": "ETH",
-            "decimals": 18,
-            "name": "Ethereum (not sure)",
-            "logoURI": ""
-        },
-        {
-            "chainId": 11155111,
+            "chainId": "11155111",
             "address": "0x08210F9170F89Ab7658F0B5E3fF39b0E03C594D4",
             "symbol": "EURC",
-            "decimals": 18,
-            "name": "EURC (not sure)",
-            "logoURI": ""
+            "decimals": 6,
+            "name": "EURC",
+            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/EURC.png"
         },
         {
-            "chainId": 11155111,
-            "address": "0x6351b954418E5bb7fbD23f8BaC850536e5e0Df93",
-            "symbol": "APE",
-            "decimals": 18,
-            "name": "APE (not sure)",
-            "logoURI": ""
-        },
-        {
-            "chainId": 11155111,
-            "address": "0x79AEE81e6863A223793bd59C9b3497599B995C26",
-            "symbol": "SHIB",
-            "decimals": 18,
-            "name": "SHIB (not sure)",
-            "logoURI": ""
-        },
-        {
-            "chainId": 11155111,
-            "address": "0x42877438df132A854179A21e113F3DD3cc62B853",
-            "symbol": "CHZ",
-            "decimals": 18,
-            "name": "CHZ (not sure)",
-            "logoURI": ""
-        },
-        {
-            "chainId": 11155111,
-            "address": "0x34229f9Bf7162Ee2b077702D21070234E74FE53D",
-            "symbol": "COMP",
-            "decimals": 18,
-            "name": "COMP (not sure)",
-            "logoURI": ""
-        },
-        {
-            "chainId": 11155111,
-            "address": "0x5b41A5c0Df16551f5edeAa2B2eDe2135F1a824DF",
-            "symbol": "DOP_LINK",
-            "decimals": 18,
-            "name": "DOP_LINK (not sure)",
-            "logoURI": ""
-        },
-        {
-            "chainId": 11155111,
-            "address": "0x09B8aE6BB8D447bF910068E6c246A270F42b41be",
-            "symbol": "MTK",
-            "decimals": 18,
-            "name": "Loadtest My Token",
-            "logoURI": ""
-        },
-        {
-            "chainId": 11155111,
+            "chainId": "11155111",
             "address": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
             "symbol": "WETH",
             "decimals": 18,
             "name": "Wrapped Ether",
-            "logoURI": ""
+            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WETH.svg"
         },
         {
-            "chainId": 11155111,
+            "chainId": "11155111",
             "address": "0x4De059786Cc7EB19FB6717AF8Bc232a3eBEfE243",
             "symbol": "uniBTCd",
             "decimals": 18,
             "name": "uniBTC Demo",
-            "logoURI": ""
+            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
+        },
+        {
+            "chainId": "11155111",
+            "address": "0x6e6174697665",
+            "symbol": "ETH",
+            "decimals": 18,
+            "name": "Sepolia Ether",
+            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/ETH.svg"
+        },
+        {
+            "chainId": "11155111",
+            "address": "0x3f4b6664338f23d2397c953f2ab4ce8031663f80",
+            "symbol": "OKB",
+            "decimals": 18,
+            "name": "OKB",
+            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/OKB.svg"
         }
     ],
     "version": {
