@@ -100,6 +100,22 @@
       "decimals": 8,
       "name": "SatLayer uniBTC Bridged",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1su09tlwycfh5hqp57t64jd6x9mm3t8qgyfc68365j229xls6mves4ms6l6",
+      "symbol": "satSolvBTC.e",
+      "decimals": 18,
+      "name": "SatLayer xSatSolvBTC Bridged",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/SolvBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn15q04p3yj98hwkmhpflk6sgzcyja2dkjrkclcql6fa686ag3f589q0r5zj3",
+      "symbol": "satLBTC.e",
+      "decimals": 8,
+      "name": "SatLayer LBTC Bridged",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg"
     }
   ],
   "version": {
