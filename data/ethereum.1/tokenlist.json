@@ -124,6 +124,22 @@
         "decimals": 8,
         "name": "Satlayer uniBTC",
         "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
+      },
+      {
+        "chainId": 1,
+        "address": "0x17140b69FfaDfF9e87BF1D86D99119ee10AD24ff",
+        "symbol": "satSolvBTC",
+        "decimals": 18,
+        "name": "Satlayer xSolvBTC",
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/SolvBTC.svg"
+      },
+      {
+        "chainId": 1,
+        "address": "0x067e11Ac5471C853aea205B3C1933a5f6367152F",
+        "symbol": "satLBTC",
+        "decimals": 8,
+        "name": "Satlayer LBTC",
+        "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg"
       }
     ],
     "version": {
