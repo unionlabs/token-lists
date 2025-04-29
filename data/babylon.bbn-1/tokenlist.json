@@ -103,7 +103,7 @@
     },
     {
       "chainId": "bbn-1",
-      "address": "bbn1su09tlwycfh5hqp57t64jd6x9mm3t8qgyfc68365j229xls6mves4ms6l6",
+      "address": "bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc",
       "symbol": "satSolvBTC.e",
       "decimals": 18,
       "name": "SatLayer xSatSolvBTC Bridged",
@@ -111,7 +111,7 @@
     },
     {
       "chainId": "bbn-1",
-      "address": "bbn15q04p3yj98hwkmhpflk6sgzcyja2dkjrkclcql6fa686ag3f589q0r5zj3",
+      "address": "bbn1rluxqjaqsczmdaxl4kr0qa42pp78zszlmdrt248hel59z3fh8y9qrh4dvq",
       "symbol": "satLBTC.e",
       "decimals": 8,
       "name": "SatLayer LBTC Bridged",
