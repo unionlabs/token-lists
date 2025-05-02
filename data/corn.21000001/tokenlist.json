@@ -33,9 +33,17 @@
             "chainId": 21000001,
             "address": "0xe6636c002bb978ef54f881a76e54c281151da1f0",
             "symbol": "XION",
-            "decimals": 6,
+            "decimals": 0,
             "name": "xion",
             "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/XION.png"
+        },
+        {
+            "chainId": 21000001,
+            "address": "0x36ca71245cc2cb21648ab21522b85bbd0be1092a",
+            "symbol": "OSMO",
+            "decimals": 6,
+            "name": "Osmosis OSMO Token",
+            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/OSMO.svg"
         }
     ],
     "version": {
