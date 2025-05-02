@@ -20,6 +20,22 @@
             "decimals": 18,
             "name": "Wrapped Bitcorn",
             "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WBTCN.svg"
+        },
+        {
+            "chainId": 21000001,
+            "address": "0x66E6e0B309ae5E359017ae2509F9c3Cb1a726b0C",
+            "symbol": "USDC",
+            "decimals": 6,
+            "name": "Noble USDC Token",
+            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/USDC.svg"
+        },
+        {
+            "chainId": 21000001,
+            "address": "0xe6636c002bb978ef54f881a76e54c281151da1f0",
+            "symbol": "XION",
+            "decimals": 6,
+            "name": "xion",
+            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/XION.png"
         }
     ],
     "version": {
