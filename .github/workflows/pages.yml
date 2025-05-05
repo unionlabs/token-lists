@@ -32,6 +32,7 @@ jobs:
           path: 'data' # upload generated folder
 
   deploy:
+    if: github.ref == 'refs/heads/main'
     needs: 'pages-directory-listing'
     permissions:
       pages: 'write'
