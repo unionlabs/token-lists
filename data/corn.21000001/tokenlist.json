@@ -1,30 +1,30 @@
 {
-    "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
-    "name": "Corn Testnet 21000001 Token List",
-    "keywords": [],
-    "tags": {},
-    "timestamp": "2025-01-15T16:00:00Z",
-    "tokens": [
-        {
-            "chainId": 21000001,
-            "address": "0x2bE4bf88014a6574CB10df3b7826bE8356aa2499",
-            "symbol": "uniBTCd",
-            "decimals": 18,
-            "name": "uniBTC Demo",
-            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
-        },
-        {
-            "chainId": 21000001,
-            "address": "0xda5dDd7270381A7C2717aD10D1c0ecB19e3CDFb2",
-            "symbol": "WBTCN",
-            "decimals": 18,
-            "name": "Wrapped Bitcorn",
-            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WBTCN.svg"
-        }
-    ],
-    "version": {
-        "major": 1,
-        "minor": 0,
-        "patch": 0
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Corn Testnet 21000001 Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-01-15T16:00:00Z",
+  "tokens": [
+    {
+      "chainId": 21000001,
+      "address": "0x2bE4bf88014a6574CB10df3b7826bE8356aa2499",
+      "symbol": "uniBTCd",
+      "decimals": 18,
+      "name": "uniBTC Demo",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
+    },
+    {
+      "chainId": 21000001,
+      "address": "0xda5dDd7270381A7C2717aD10D1c0ecB19e3CDFb2",
+      "symbol": "WBTCN",
+      "decimals": 18,
+      "name": "Wrapped Bitcorn",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WBTCN.svg"
     }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
 }
