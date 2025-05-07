@@ -20,6 +20,14 @@
       "decimals": 18,
       "name": "Wrapped Ether",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WETH.svg"
+    },
+    {
+      "chainId": 17000,
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "symbol": "ETH",
+      "decimals": 18,
+      "name": "Ether",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/ETH.svg"
     }
   ],
   "version": {
