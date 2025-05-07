@@ -33,7 +33,7 @@
       "chainId": "bbn-1",
       "address": "bbn1s7jzz7cyuqmy5xpr07yepka5ngktexsferu2cr4xeww897ftj77sv30f5s",
       "symbol": "eBABY",
-      "decimals": 8,
+      "decimals": 6,
       "name": "eBABY",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/eBABY.svg"
     },
