@@ -74,7 +74,7 @@
       "address": "0xbdf245957992bfbc62b07e344128a1eec7b7ee3f",
       "symbol": "mBTC",
       "decimals": 8,
-      "name": "BabyPie Staked BTC",
+      "name": "Liquid Staked BTC",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/mBTC.png"
     },
     {
@@ -140,6 +140,70 @@
       "decimals": 8,
       "name": "Satlayer LBTC",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe2C6755C10d0B61D8B11Dd2851AE8266Cea912DC",
+      "symbol": "satFBTC",
+      "decimals": 8,
+      "name": "SatLayer FBTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/FBTC.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0xC96dE26018A54D51c097160568752c4E3BD6C364",
+      "symbol": "FBTC",
+      "decimals": 8,
+      "name": "Fire Bitcoin",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/FBTC.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0x69223B5B36a785Ec08e5f685fd7961399982C566",
+      "symbol": "satWBTC",
+      "decimals": 8,
+      "name": "Satlayer WBTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WBTC.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "name": "Wrapped BTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WBTC.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0xFF2858Cc8227aA45a51c8961598Edc2d44B5ee5b",
+      "symbol": "satStBTC",
+      "decimals": 18,
+      "name": "Satlayer stBTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/stBTC.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0c4dd69705D16d91bC9C0534Cc926966f23430c7",
+      "symbol": "satPumpBTC",
+      "decimals": 8,
+      "name": "Satlayer pumpBTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/pumpBTC.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0x657e8c867d8b37dcc18fa4caead9c45eb088c642",
+      "symbol": "eBTC",
+      "decimals": 8,
+      "name": "ether.fi BTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/eBTC.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe53dCec07d16D88e386AE0710E86d9a400f83c31",
+      "symbol": "BABY",
+      "decimals": 6,
+      "name": "Babylon",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/BABY.svg"
     }
   ],
   "version": {
