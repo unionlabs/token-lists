@@ -131,7 +131,7 @@
       "symbol": "satSolvBTC",
       "decimals": 18,
       "name": "Satlayer xSolvBTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/SolvBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/xSolvBTC.svg"
     },
     {
       "chainId": 1,

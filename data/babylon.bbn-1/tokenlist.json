@@ -107,7 +107,7 @@
       "symbol": "satSolvBTC.e",
       "decimals": 18,
       "name": "SatLayer xSatSolvBTC Bridged",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/SolvBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/xSolvBTC.svg"
     },
     {
       "chainId": "bbn-1",
@@ -116,6 +116,62 @@
       "decimals": 8,
       "name": "SatLayer LBTC Bridged",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1ztf5dlsljzmxn800yeydplwyvpp828fjkyy29gtjzerd4mu4kxsscmzc0a",
+      "symbol": "xSolvBTC",
+      "decimals": 18,
+      "name": "xSolvBTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/xSolvBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn13vejhl4x0arsq7wajcmlu5hx3phmxdcrp3s2jvy65ucyt9kfkh7qr2laaa",
+      "symbol": "satFBTC.e",
+      "decimals": 8,
+      "name": "SatLayer FBTC Bridged",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/FBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1m83xl7pshe9dt25ztlnlqfy8ksaxdp5e098fcl372fjdacpusdcqjp4zx3",
+      "symbol": "satWBTC.e",
+      "decimals": 8,
+      "name": "SatLayer WBTC Bridged",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn17awjw4g3a7wn5eruejf6hmshc8y06wpz6qu7ue32xygcueu55zqs33aq93",
+      "symbol": "satStBTC.e",
+      "decimals": 18,
+      "name": "SatLayer stBTC Bridged",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/stBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1zwg6c8rzk8htpn67cj4vrq5y2qdhfgtzvslyy9574s4j8j5xynlqg0qzs2",
+      "symbol": "satPumpBTC.e",
+      "decimals": 8,
+      "name": "SatLayer pumpBTC Bridged",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/pumpBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1rgsgnu9hcssn97hprmavtt58vt3qg5y4qha4ky6q09urczsuzwlss60thh",
+      "symbol": "eBTC",
+      "decimals": 8,
+      "name": "ether.fi BTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/eBTC.svg"
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1j7yz208yls9v5vcgsekwaf096wk2ysyrdn0u747868v80fd05tjsalq9ll",
+      "symbol": "mBTC",
+      "decimals": 8,
+      "name": "Liquid Staked BTC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/mBTC.png"
     }
   ],
   "version": {
