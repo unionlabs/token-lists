@@ -11,7 +11,7 @@
       "address": "muno",
       "name": "UNO Coin",
       "chainId": "union-testnet-10",
-      "logoURI": ""
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/UNO.svg"
     }
   ],
   "version": {
