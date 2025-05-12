@@ -1,0 +1,34 @@
+name: Upload tokens.csv to Dune via cURL
+
+on:
+  workflow_dispatch:
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Generate tokens.csv
+        run: python scripts/generate-csv.py
+
+      - name: Upload to Dune via curl
+        env:
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
+        run: |
+          tr -d '\r' < tokens.csv | jq -Rs --arg description "Union Labs token list for bridged assets" \
+            --arg table_name "union_token_list" \
+            --arg is_private "false" \
+            '{data: ., description: $description, table_name: $table_name, is_private: ($is_private | test("true"))}' > payload.json
+          
+          curl -X POST https://api.dune.com/api/v1/table/upload/csv \
+            -H "Content-Type: application/json" \
+            -H "X-DUNE-API-KEY: $DUNE_API_KEY" \
+            --data @payload.json

@@ -20,12 +20,14 @@
       {
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
+            jq
             bun
             just
             biome
             direnv
             nixfmt-rfc-style
             nodePackages_latest.nodejs
+            python3
           ];
         };
       }

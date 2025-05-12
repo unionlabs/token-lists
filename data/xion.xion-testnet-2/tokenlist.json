@@ -1,38 +1,38 @@
 {
-    "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
-    "name": "Xion Testnet Token List",
-    "keywords": [],
-    "tags": {},
-    "timestamp": "2025-04-29T15:00:00Z",
-    "tokens": [
-        {
-            "chainId": "xion-testnet-2",
-            "address": "uxion",
-            "symbol": "XION",
-            "decimals": 6,
-            "name": "xion",
-            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/XION.png"
-        },
-        {
-            "chainId": "xion-testnet-2",
-            "address": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
-            "symbol": "OSMO",
-            "decimals": 6,
-            "name": "Osmosis OSMO Token",
-            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/OSMO.svg"
-        },
-        {
-            "chainId": "xion-testnet-2",
-            "address": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
-            "symbol": "USDC",
-            "decimals": 6,
-            "name": "Noble USDC Token",
-            "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/USDC.svg"
-        }
-    ],
-    "version": {
-        "major": 1,
-        "minor": 0,
-        "patch": 0
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Xion Testnet Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-04-29T15:00:00Z",
+  "tokens": [
+    {
+      "chainId": "xion-testnet-2",
+      "address": "uxion",
+      "symbol": "XION",
+      "decimals": 6,
+      "name": "xion",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/XION.png"
+    },
+    {
+      "chainId": "xion-testnet-2",
+      "address": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+      "symbol": "OSMO",
+      "decimals": 6,
+      "name": "Osmosis OSMO Token",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/OSMO.svg"
+    },
+    {
+      "chainId": "xion-testnet-2",
+      "address": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+      "symbol": "USDC",
+      "decimals": 6,
+      "name": "Noble USDC Token",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/USDC.svg"
     }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
 }
