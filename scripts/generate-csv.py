@@ -5,7 +5,7 @@ import csv
 DATA_DIR = "data"
 CSV_FILE = "tokens.csv"
 
-fieldnames = ["symbol", "address", "decimals", "chainId", "dune"]
+fieldnames = ["symbol", "address", "decimals", "chainId", "dune_contract_address", "dune_blockchain"]
 
 with open(CSV_FILE, "w", newline="") as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -21,12 +21,14 @@ with open(CSV_FILE, "w", newline="") as csvfile:
                     data = json.load(f)
                     tokens = data.get("tokens", [])
                     for token in tokens:
+                        dune_data = token.get("extensions", {}).get("dune", {})
                         writer.writerow({
                             "symbol": token.get("symbol", ""),
                             "address": token.get("address", ""),
                             "decimals": token.get("decimals", ""),
                             "chainId": token.get("chainId", ""),
-                            "dune": token.get("extensions", {}).get("dune", "")
+                            "dune_contract_address": dune_data.get("contract_address", ""),
+                            "dune_blockchain": dune_data.get("blockchain", "")
                         })
                 except Exception as e:
                     print(f"Erro ao ler {tokenlist_path}: {e}")
