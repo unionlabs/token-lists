@@ -27,8 +27,8 @@ with open(CSV_FILE, "w", newline="") as csvfile:
                             "address": token.get("address", ""),
                             "decimals": token.get("decimals", ""),
                             "chainId": token.get("chainId", ""),
-                            "dune_contract_address": dune_data.get("contract_address", ""),
+                            "dune_contract_address": dune_data.get("contract_address") or "none",
                             "dune_blockchain": dune_data.get("blockchain", "")
                         })
                 except Exception as e:
-                    print(f"Erro ao ler {tokenlist_path}: {e}")
+                    print(f"Error reading {tokenlist_path}: {e}")
