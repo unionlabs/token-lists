@@ -26,6 +26,7 @@
             direnv
             nixfmt-rfc-style
             nodePackages_latest.nodejs
+            python3
           ];
         };
       }

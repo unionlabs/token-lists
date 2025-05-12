@@ -75,7 +75,14 @@
       "symbol": "pumpBTC",
       "decimals": 8,
       "name": "pumpBTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/pumpBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/pumpBTC.svg",
+      "extensions": {
+            "hubble": {
+                "height": 123
+            },
+            "dune": "hello3",
+            "third_new_thing": {}
+        }
     },
     {
       "chainId": "bbn-1",
