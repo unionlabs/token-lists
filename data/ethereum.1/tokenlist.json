@@ -123,7 +123,13 @@
       "symbol": "satUniBTC",
       "decimals": 8,
       "name": "Satlayer uniBTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg",
+      "extensions": {
+        "dune": {
+          "contract_address": "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": 1,
@@ -131,7 +137,13 @@
       "symbol": "satSolvBTC",
       "decimals": 18,
       "name": "Satlayer xSolvBTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/xSolvBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/xSolvBTC.svg",
+      "extensions": {
+        "dune": {
+          "contract_address": "0xd9D920AA40f578ab794426F5C90F6C731D159DEf",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": 1,
@@ -139,7 +151,13 @@
       "symbol": "satLBTC",
       "decimals": 8,
       "name": "Satlayer LBTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg",
+      "extensions": {
+        "dune": {
+          "contract_address": "0x8236a87084f8b84306f72007f36f2618a5634494",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": 1,
@@ -147,7 +165,13 @@
       "symbol": "satFBTC",
       "decimals": 8,
       "name": "SatLayer FBTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/FBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/FBTC.svg",
+      "extensions": {
+        "dune": {
+          "contract_address": "0xC96dE26018A54D51c097160568752c4E3BD6C364",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": 1,
@@ -163,7 +187,13 @@
       "symbol": "satWBTC",
       "decimals": 8,
       "name": "Satlayer WBTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WBTC.svg",
+      "extensions": {
+        "dune": {
+          "contract_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": 1,
@@ -179,7 +209,13 @@
       "symbol": "satStBTC",
       "decimals": 18,
       "name": "Satlayer stBTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/stBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/stBTC.svg",
+      "extensions": {
+        "dune": {
+          "contract_address": "0xf6718b2701D4a6498eF77D7c152b2137Ab28b8A3",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": 1,
@@ -187,7 +223,13 @@
       "symbol": "satPumpBTC",
       "decimals": 8,
       "name": "Satlayer pumpBTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/pumpBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/pumpBTC.svg",
+      "extensions": {
+        "dune": {
+          "contract_address": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": 1,
