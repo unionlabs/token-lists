@@ -59,7 +59,16 @@
       "symbol": "SolvBTC",
       "decimals": 18,
       "name": "Solv BTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/SolvBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/SolvBTC.svg",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "47731"
+        },
+        "dune": {
+          "contract_address": "0x7A56E1C57C7475CCf742a1832B028F0456652F97",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": "bbn-1",
@@ -67,7 +76,16 @@
       "symbol": "stBTC",
       "decimals": 18,
       "name": "Lorenzo stBTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/stBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/stBTC.svg",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "40217"
+        },
+        "dune": {
+          "contract_address": "0xf6718b2701D4a6498eF77D7c152b2137Ab28b8A3",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": "bbn-1",
@@ -77,12 +95,14 @@
       "name": "pumpBTC",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/pumpBTC.svg",
       "extensions": {
-            "hubble": {
-                "height": 123
-            },
-            "dune": "hello3",
-            "third_new_thing": {}
+        "hubble": {
+          "instantiate_height": "40217"
+        },
+        "dune": {
+          "contract_address": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
+          "blockchain": "ethereum"
         }
+      }
     },
     {
       "chainId": "bbn-1",
@@ -90,7 +110,16 @@
       "symbol": "uniBTC",
       "decimals": 8,
       "name": "uniBTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "39377"
+        },
+        "dune": {
+          "contract_address": "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": "bbn-1",
@@ -98,7 +127,16 @@
       "symbol": "LBTC",
       "decimals": 8,
       "name": "Lombard Staked Bitcoin",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "39951"
+        },
+        "dune": {
+          "contract_address": "0x8236a87084f8b84306f72007f36f2618a5634494",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": "bbn-1",
@@ -106,15 +144,33 @@
       "symbol": "satUniBTC.e",
       "decimals": 8,
       "name": "SatLayer uniBTC Bridged",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "126347"
+        },
+        "dune": {
+          "contract_address": "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": "bbn-1",
       "address": "bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc",
-      "symbol": "satSolvBTC.e",
+      "symbol": "satXSolvBTC.e",
       "decimals": 18,
       "name": "SatLayer xSatSolvBTC Bridged",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/xSolvBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/xSolvBTC.svg",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "179877"
+        },
+        "dune": {
+          "contract_address": "0xd9D920AA40f578ab794426F5C90F6C731D159DEf",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": "bbn-1",
@@ -122,7 +178,16 @@
       "symbol": "satLBTC.e",
       "decimals": 8,
       "name": "SatLayer LBTC Bridged",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/LBTC.svg",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "183217"
+        },
+        "dune": {
+          "contract_address": "0x8236a87084f8b84306f72007f36f2618a5634494",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": "bbn-1",
@@ -130,7 +195,16 @@
       "symbol": "xSolvBTC",
       "decimals": 18,
       "name": "xSolvBTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/xSolvBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/xSolvBTC.svg",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "254949"
+        },
+        "dune": {
+          "contract_address": "0xd9D920AA40f578ab794426F5C90F6C731D159DEf",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": "bbn-1",
@@ -138,7 +212,16 @@
       "symbol": "satFBTC.e",
       "decimals": 8,
       "name": "SatLayer FBTC Bridged",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/FBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/FBTC.svg",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "255025"
+        },
+        "dune": {
+          "contract_address": "0xC96dE26018A54D51c097160568752c4E3BD6C364",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": "bbn-1",
@@ -146,7 +229,16 @@
       "symbol": "satWBTC.e",
       "decimals": 8,
       "name": "SatLayer WBTC Bridged",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WBTC.svg",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "255025"
+        },
+        "dune": {
+          "contract_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": "bbn-1",
@@ -154,7 +246,16 @@
       "symbol": "satStBTC.e",
       "decimals": 18,
       "name": "SatLayer stBTC Bridged",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/stBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/stBTC.svg",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "255025"
+        },
+        "dune": {
+          "contract_address": "0xf6718b2701D4a6498eF77D7c152b2137Ab28b8A3",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": "bbn-1",
@@ -162,7 +263,16 @@
       "symbol": "satPumpBTC.e",
       "decimals": 8,
       "name": "SatLayer pumpBTC Bridged",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/pumpBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/pumpBTC.svg",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "254987"
+        },
+        "dune": {
+          "contract_address": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": "bbn-1",
@@ -170,7 +280,16 @@
       "symbol": "eBTC",
       "decimals": 8,
       "name": "ether.fi BTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/eBTC.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/eBTC.svg",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "254987"
+        },
+        "dune": {
+          "contract_address": "0x657e8c867d8b37dcc18fa4caead9c45eb088c642",
+          "blockchain": "ethereum"
+        }
+      }
     },
     {
       "chainId": "bbn-1",
@@ -178,7 +297,16 @@
       "symbol": "mBTC",
       "decimals": 8,
       "name": "Liquid Staked BTC",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/mBTC.png"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/mBTC.png",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "254987"
+        },
+        "dune": {
+          "contract_address": "0xbdf245957992bfbc62b07e344128a1eec7b7ee3f",
+          "blockchain": "ethereum"
+        }
+      }
     }
   ],
   "version": {
