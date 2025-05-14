@@ -35,7 +35,12 @@
       "symbol": "eBABY",
       "decimals": 6,
       "name": "eBABY",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/eBABY.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/eBABY.svg",
+      "extensions": {
+        "hubble": {
+          "instantiate_height": "30238"
+        }
+      }
     },
     {
       "chainId": "bbn-1",
