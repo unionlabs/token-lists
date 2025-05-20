@@ -143,14 +143,17 @@ async fn verify_on_ethereum(
 }
 
 fn get_ethereum_provider(network: &str) -> Option<RootProvider<Http<Client>>> {
-    let url = match network {
-        "ethereum" => env::var("RPC_URL_ETHEREUM").ok()?,
-        "bob" => env::var("RPC_URL_BOB").ok()?,
-        "corn" => env::var("RPC_URL_CORN").ok()?,
+    let provider_suffix = env::var("RPC_PROVIDER").ok()?;
+
+    let subdomain = match network {
+        "ethereum" => "1.ethereum",
+        "bob" => "60808.bob",
+        "corn" => "21000000.corn",
         _ => return None,
     };
 
-    let provider = ProviderBuilder::new().on_http(Url::parse(&url).ok()?);
+    let full_url = format!("https://rpc.{subdomain}{}", provider_suffix);
+    let provider = ProviderBuilder::new().on_http(Url::parse(&full_url).ok()?);
 
     Some(provider)
 }

@@ -8,9 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      RPC_URL_ETHEREUM: ${{ secrets.RPC_URL_ETHEREUM }}
-      RPC_URL_BOB: ${{ secrets.RPC_URL_BOB }}
-      RPC_URL_CORN: ${{ secrets.RPC_URL_CORN }}
+      RPC_PROVIDER: ${{ secrets.RPC_PROVIDER }}
 
     steps:
       - name: Checkout repository
