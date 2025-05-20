@@ -48,6 +48,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         ("babylon", "../../data/babylon.bbn-1/tokenlist.json"),
     ];
 
+    let mut error_count = 0;
+
     for (network, path) in files {
         println!("\n🔍 Checking file: {path} for network: {network}");
 
@@ -59,27 +61,45 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         if let Some(provider) = get_ethereum_provider(network) {
             for token in tokens {
-                verify_on_ethereum(&token, &provider).await?;
+                match verify_on_ethereum(&token, &provider).await {
+                    Ok(errors) => error_count += errors,
+                    Err(e) => {
+                        eprintln!("❌ Failed to verify {}: {}", token.symbol, e);
+                        error_count += 1;
+                    }
+                }
             }
         } else if network == "babylon" {
             for token in tokens {
-                verify_on_babylon(&token).await?;
+                match verify_on_babylon(&token).await {
+                    Ok(errors) => error_count += errors,
+                    Err(e) => {
+                        eprintln!("❌ Failed to verify {}: {}", token.symbol, e);
+                        error_count += 1;
+                    }
+                }
             }
         } else {
             println!("⚠️ Unknown network: {}", network);
         }
     }
 
+    if error_count > 0 {
+        eprintln!("\n Found {error_count} token validation error(s).");
+        return Err(format!("Validation failed with {error_count} error(s)").into());
+    }
+
+    println!("\n✅ All tokens are valid!");
     Ok(())
 }
 
 async fn verify_on_ethereum(
     token: &Token,
     provider: &RootProvider<Http<Client>>,
-) -> Result<(), Box<dyn std::error::Error>> {
+) -> Result<u32, Box<dyn std::error::Error>> {
     if token.address.to_lowercase() == "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee" {
         println!("ℹ️ Skipping native placeholder token: {}", token.symbol);
-        return Ok(());
+        return Ok(0);
     }
 
     let address = Address::from_str(&token.address)?;
@@ -89,14 +109,14 @@ async fn verify_on_ethereum(
     let on_chain_name = contract.name().call().await?._0;
     let on_chain_decimals = contract.decimals().call().await?._0;
 
-    let mut is_valid = true;
+    let mut local_error_count = 0;
 
     if token.symbol != on_chain_symbol {
         println!(
             "[{}] ❌ Symbol mismatch: JSON = {}, On-chain = {} ",
             token.symbol, token.symbol, on_chain_symbol
         );
-        is_valid = false;
+        local_error_count += 1;
     }
 
     if token.name != on_chain_name {
@@ -104,7 +124,7 @@ async fn verify_on_ethereum(
             "[{}] ❌ Name mismatch: JSON = {}, On-chain = {} ",
             token.symbol, token.name, on_chain_name
         );
-        is_valid = false;
+        local_error_count += 1;
     }
 
     if token.decimals != on_chain_decimals {
@@ -112,14 +132,14 @@ async fn verify_on_ethereum(
             "[{}] ❌ Decimals mismatch: JSON = {}, On-chain = {} ",
             token.symbol, token.decimals, on_chain_decimals
         );
-        is_valid = false;
+        local_error_count += 1;
     }
 
-    if is_valid {
+    if local_error_count == 0 {
         println!("[{}] ✅ Token is valid ", token.symbol);
     }
 
-    Ok(())
+    Ok(local_error_count)
 }
 
 fn get_ethereum_provider(network: &str) -> Option<RootProvider<Http<Client>>> {
@@ -135,8 +155,18 @@ fn get_ethereum_provider(network: &str) -> Option<RootProvider<Http<Client>>> {
     Some(provider)
 }
 
-async fn verify_on_babylon(token: &Token) -> Result<(), Box<dyn std::error::Error>> {
+async fn verify_on_babylon(token: &Token) -> Result<u32, Box<dyn std::error::Error>> {
     let client = Client::new();
+
+    if token.address == "ubbn" {
+        println!("ℹ️ Skipping non-contract token: {}", token.symbol);
+        return Ok(0);
+    }
+
+    if token.address.starts_with("ibc/") {
+        println!("ℹ️ Skipping IBC token: {}", token.symbol);
+        return Ok(0);
+    }
 
     let msg = serde_json::json!({ "token_info": {} });
     let query = general_purpose::STANDARD.encode(msg.to_string());
@@ -147,26 +177,16 @@ async fn verify_on_babylon(token: &Token) -> Result<(), Box<dyn std::error::Erro
         rpc_url, token.address, query
     );
 
-    if token.address == "ubbn" {
-        println!("ℹ️ Skipping non-contract token: {}", token.symbol);
-        return Ok(());
-    }
-
-    if token.address.starts_with("ibc/") {
-        println!("ℹ️ Skipping IBC token: {}", token.symbol);
-        return Ok(());
-    }
-
     let res: TokenInfoResponse = client.get(&url).send().await?.json().await?;
 
-    let mut is_valid = true;
+    let mut local_error_count = 0;
 
     if token.symbol != res.data.symbol {
         println!(
             "[{}] ❌ Symbol mismatch: JSON = {}, On-chain = {}",
             token.symbol, token.symbol, res.data.symbol
         );
-        is_valid = false;
+        local_error_count += 1;
     }
 
     if token.name != res.data.name {
@@ -174,7 +194,7 @@ async fn verify_on_babylon(token: &Token) -> Result<(), Box<dyn std::error::Erro
             "[{}] ❌ Name mismatch: JSON = {}, On-chain = {}",
             token.symbol, token.name, res.data.name
         );
-        is_valid = false;
+        local_error_count += 1;
     }
 
     if token.decimals != res.data.decimals {
@@ -182,12 +202,12 @@ async fn verify_on_babylon(token: &Token) -> Result<(), Box<dyn std::error::Erro
             "[{}] ❌ Decimals mismatch: JSON = {}, On-chain = {}",
             token.symbol, token.decimals, res.data.decimals
         );
-        is_valid = false;
+        local_error_count += 1;
     }
 
-    if is_valid {
+    if local_error_count == 0 {
         println!("[{}] ✅ Token is valid ", token.symbol);
     }
 
-    Ok(())
+    Ok(local_error_count)
 }
