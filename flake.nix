@@ -21,8 +21,8 @@
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
             rust
-            openssl            # ✅ para o openssl-sys
-            pkg-config         # ✅ para encontrar a instalação do OpenSSL
+            openssl            
+            pkg-config         
             jq
             bun
             just

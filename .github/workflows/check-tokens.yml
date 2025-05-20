@@ -1,0 +1,30 @@
+name: Check Tokens
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    env:
+      RPC_URL_ETHEREUM: ${{ secrets.RPC_URL_ETHEREUM }}
+      RPC_URL_BOB: ${{ secrets.RPC_URL_BOB }}
+      RPC_URL_CORN: ${{ secrets.RPC_URL_CORN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Rust
+        uses: actions/setup-rust@v1
+        with:
+          rust-version: stable
+
+      - name: Build project
+        run: cargo build
+        working-directory: scripts/validate-tokens
+
+      - name: Run token verification
+        run: cargo run
+        working-directory: scripts/validate-tokens

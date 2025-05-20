@@ -5,6 +5,7 @@ use alloy::transports::http::reqwest::Url;
 use alloy::transports::http::{Client, Http};
 use base64::{engine::general_purpose, Engine as _};
 use serde::Deserialize;
+use std::env;
 use std::fs;
 use std::str::FromStr;
 
@@ -38,7 +39,7 @@ struct TokenInfo {
     decimals: u8,
 }
 
-#[tokio::main] // <- ADICIONA ISTO
+#[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let files = vec![
         ("ethereum", "../../data/ethereum.1/tokenlist.json"),
@@ -79,7 +80,6 @@ async fn verify_on_ethereum(
     if token.address.to_lowercase() == "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee" {
         println!("ℹ️ Skipping native placeholder token: {}", token.symbol);
         return Ok(());
-
     }
 
     let address = Address::from_str(&token.address)?;
@@ -124,13 +124,13 @@ async fn verify_on_ethereum(
 
 fn get_ethereum_provider(network: &str) -> Option<RootProvider<Http<Client>>> {
     let url = match network {
-        "ethereum" => "x",
-        "bob" => "x",
-        "corn" => "x",
+        "ethereum" => env::var("RPC_URL_ETHEREUM").ok()?,
+        "bob" => env::var("RPC_URL_BOB").ok()?,
+        "corn" => env::var("RPC_URL_CORN").ok()?,
         _ => return None,
     };
 
-    let provider = ProviderBuilder::new().on_http(Url::parse(url).ok()?);
+    let provider = ProviderBuilder::new().on_http(Url::parse(&url).ok()?);
 
     Some(provider)
 }
