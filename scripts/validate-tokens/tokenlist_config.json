@@ -1,0 +1,8 @@
+{
+  "files": {
+    "ethereum": "../../data/ethereum.1/tokenlist.json",
+    "bob": "../../data/bob.60808/tokenlist.json",
+    "corn": "../../data/corn.21000000/tokenlist.json",
+    "babylon": "../../data/babylon.bbn-1/tokenlist.json"
+  }
+}

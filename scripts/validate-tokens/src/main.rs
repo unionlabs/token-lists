@@ -5,6 +5,7 @@ use alloy::transports::http::reqwest::Url;
 use alloy::transports::http::{Client, Http};
 use base64::{engine::general_purpose, Engine as _};
 use serde::Deserialize;
+use std::collections::HashMap;
 use std::env;
 use std::fs;
 use std::str::FromStr;
@@ -16,6 +17,11 @@ sol! {
         function symbol() view returns (string);
         function decimals() view returns (uint8);
     }
+}
+
+#[derive(Debug, Deserialize)]
+struct Config {
+    files: HashMap<String, String>,
 }
 
 #[derive(Debug, Deserialize)]
@@ -41,16 +47,17 @@ struct TokenInfo {
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let files = vec![
-        ("ethereum", "../../data/ethereum.1/tokenlist.json"),
-        ("bob", "../../data/bob.60808/tokenlist.json"),
-        ("corn", "../../data/corn.21000000/tokenlist.json"),
-        ("babylon", "../../data/babylon.bbn-1/tokenlist.json"),
-    ];
+    let config_path = env::args()
+        .skip_while(|arg| arg != "--config")
+        .nth(1)
+        .unwrap_or("tokenlist_config.json".to_string());
+
+    let config_content = fs::read_to_string(config_path)?;
+    let config: Config = serde_json::from_str(&config_content)?;
 
     let mut error_count = 0;
 
-    for (network, path) in files {
+    for (network, path) in config.files {
         println!("\n🔍 Checking file: {path} for network: {network}");
 
         let content = fs::read_to_string(path)?;
@@ -59,7 +66,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         let token_array = json.get("tokens").ok_or("Missing 'tokens' field")?;
         let tokens: Vec<Token> = serde_json::from_value(token_array.clone())?;
 
-        if let Some(provider) = get_ethereum_provider(network) {
+        if let Some(provider) = get_ethereum_provider(&network) {
             for token in tokens {
                 match verify_on_ethereum(&token, &provider).await {
                     Ok(errors) => error_count += errors,
