@@ -3,6 +3,7 @@ use alloy::providers::{ProviderBuilder, RootProvider};
 use alloy::sol;
 use alloy::transports::http::reqwest::Url;
 use alloy::transports::http::{Client, Http};
+use base64::{engine::general_purpose, Engine as _};
 use serde::Deserialize;
 use std::fs;
 use std::str::FromStr;
@@ -22,6 +23,18 @@ struct Token {
     address: String,
     symbol: String,
     name: String,
+    decimals: u8,
+}
+
+#[derive(Deserialize)]
+struct TokenInfoResponse {
+    data: TokenInfo,
+}
+
+#[derive(Deserialize)]
+struct TokenInfo {
+    name: String,
+    symbol: String,
     decimals: u8,
 }
 
@@ -49,7 +62,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             }
         } else if network == "babylon" {
             for token in tokens {
-                verify_on_babylon(&token)?;
+                verify_on_babylon(&token).await?;
             }
         } else {
             println!("⚠️ Unknown network: {}", network);
@@ -63,40 +76,47 @@ async fn verify_on_ethereum(
     token: &Token,
     provider: &RootProvider<Http<Client>>,
 ) -> Result<(), Box<dyn std::error::Error>> {
-    let address = Address::from_str(&token.address)?;
+    if token.address.to_lowercase() == "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee" {
+        println!("ℹ️ Skipping native placeholder token: {}", token.symbol);
+        return Ok(());
 
+    }
+
+    let address = Address::from_str(&token.address)?;
     let contract = IERC20::new(address, &provider);
 
     let on_chain_symbol = contract.symbol().call().await?._0;
     let on_chain_name = contract.name().call().await?._0;
-
     let on_chain_decimals = contract.decimals().call().await?._0;
 
-    println!("🔗 [{}]", token.symbol);
+    let mut is_valid = true;
+
     if token.symbol != on_chain_symbol {
         println!(
-            "❌ Symbol mismatch: JSON = {}, On-chain = {}",
-            token.symbol, on_chain_symbol
+            "[{}] ❌ Symbol mismatch: JSON = {}, On-chain = {} ",
+            token.symbol, token.symbol, on_chain_symbol
         );
-    }
-    if token.name != on_chain_name {
-        println!(
-            "❌ Name mismatch: JSON = {}, On-chain = {}",
-            token.name, on_chain_name
-        );
-    }
-    if token.decimals != on_chain_decimals {
-        println!(
-            "❌ Decimals mismatch: JSON = {}, On-chain = {}",
-            token.decimals, on_chain_decimals
-        );
+        is_valid = false;
     }
 
-    if token.symbol == on_chain_symbol
-        && token.name == on_chain_name
-        && token.decimals == on_chain_decimals
-    {
-        println!("✅ Token is valid.");
+    if token.name != on_chain_name {
+        println!(
+            "[{}] ❌ Name mismatch: JSON = {}, On-chain = {} ",
+            token.symbol, token.name, on_chain_name
+        );
+        is_valid = false;
+    }
+
+    if token.decimals != on_chain_decimals {
+        println!(
+            "[{}] ❌ Decimals mismatch: JSON = {}, On-chain = {} ",
+            token.symbol, token.decimals, on_chain_decimals
+        );
+        is_valid = false;
+    }
+
+    if is_valid {
+        println!("[{}] ✅ Token is valid ", token.symbol);
     }
 
     Ok(())
@@ -105,7 +125,7 @@ async fn verify_on_ethereum(
 fn get_ethereum_provider(network: &str) -> Option<RootProvider<Http<Client>>> {
     let url = match network {
         "ethereum" => "x",
-        "bob" => "",
+        "bob" => "x",
         "corn" => "x",
         _ => return None,
     };
@@ -115,9 +135,59 @@ fn get_ethereum_provider(network: &str) -> Option<RootProvider<Http<Client>>> {
     Some(provider)
 }
 
-// Placeholder: consultar via Cosmos RPC ou outro método específico de Babylon
-fn verify_on_babylon(token: &Token) -> Result<(), Box<dyn std::error::Error>> {
-    println!("🪐 [Babylon] Verifying {}", token.address);
-    // Aqui irás fazer lógica customizada para Babylon
+async fn verify_on_babylon(token: &Token) -> Result<(), Box<dyn std::error::Error>> {
+    let client = Client::new();
+
+    let msg = serde_json::json!({ "token_info": {} });
+    let query = general_purpose::STANDARD.encode(msg.to_string());
+
+    let rpc_url = "https://babylon.nodes.guru";
+    let url = format!(
+        "{}/api/cosmwasm/wasm/v1/contract/{}/smart/{}",
+        rpc_url, token.address, query
+    );
+
+    if token.address == "ubbn" {
+        println!("ℹ️ Skipping non-contract token: {}", token.symbol);
+        return Ok(());
+    }
+
+    if token.address.starts_with("ibc/") {
+        println!("ℹ️ Skipping IBC token: {}", token.symbol);
+        return Ok(());
+    }
+
+    let res: TokenInfoResponse = client.get(&url).send().await?.json().await?;
+
+    let mut is_valid = true;
+
+    if token.symbol != res.data.symbol {
+        println!(
+            "[{}] ❌ Symbol mismatch: JSON = {}, On-chain = {}",
+            token.symbol, token.symbol, res.data.symbol
+        );
+        is_valid = false;
+    }
+
+    if token.name != res.data.name {
+        println!(
+            "[{}] ❌ Name mismatch: JSON = {}, On-chain = {}",
+            token.symbol, token.name, res.data.name
+        );
+        is_valid = false;
+    }
+
+    if token.decimals != res.data.decimals {
+        println!(
+            "[{}] ❌ Decimals mismatch: JSON = {}, On-chain = {}",
+            token.symbol, token.decimals, res.data.decimals
+        );
+        is_valid = false;
+    }
+
+    if is_valid {
+        println!("[{}] ✅ Token is valid ", token.symbol);
+    }
+
     Ok(())
 }
