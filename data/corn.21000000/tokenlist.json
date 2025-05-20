@@ -16,15 +16,7 @@
     {
       "chainId": 21000000,
       "address": "0xda5dDd7270381A7C2717aD10D1c0ecB19e3CDFb2",
-      "symbol": "wBTCN",
-      "decimals": 18,
-      "name": "Wrapped Bitcorn",
-      "logoURI": ""
-    },
-    {
-      "chainId": 21000000,
-      "address": "0xda5dDd7270381A7C2717aD10D1c0ecB19e3CDFb2",
-      "symbol": "wBTCN",
+      "symbol": "WBTCN",
       "decimals": 18,
       "name": "Wrapped Bitcorn",
       "logoURI": ""
@@ -32,9 +24,9 @@
     {
       "chainId": 21000000,
       "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
-      "symbol": "USDT0",
+      "symbol": "USD₮0",
       "decimals": 6,
-      "name": "Tether",
+      "name": "USD₮0",
       "logoURI": ""
     },
     {
@@ -42,7 +34,7 @@
       "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
       "symbol": "LBTC",
       "decimals": 8,
-      "name": "Lombard BTC",
+      "name": "Lombard Staked Bitcoin",
       "logoURI": ""
     },
     {
@@ -58,7 +50,7 @@
       "address": "0x93919784C523f39CACaa98Ee0a9d96c3F32b593e",
       "symbol": "uniBTC",
       "decimals": 8,
-      "name": "Bedrock BTC",
+      "name": "uniBTC",
       "logoURI": ""
     },
     {
@@ -66,7 +58,7 @@
       "address": "0xf6718b2701D4a6498eF77D7c152b2137Ab28b8A3",
       "symbol": "stBTC",
       "decimals": 18,
-      "name": "Lorenzo BTC",
+      "name": "Lorenzo stBTC",
       "logoURI": ""
     },
     {
@@ -80,7 +72,7 @@
     {
       "chainId": 21000000,
       "address": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
-      "symbol": "solvBTC",
+      "symbol": "SolvBTC",
       "decimals": 18,
       "name": "Solv BTC",
       "logoURI": ""
