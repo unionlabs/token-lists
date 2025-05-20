@@ -29,3 +29,4 @@ cache
 .vitepress/dist
 *.timestamp-*
 .direnv
+scripts/validate-tokens/target
