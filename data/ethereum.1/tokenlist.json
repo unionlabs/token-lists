@@ -10,7 +10,7 @@
       "address": "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568",
       "symbol": "uniBTC",
       "decimals": 8,
-      "name": "Universal BTC",
+      "name": "uniBTC",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
     },
     {
@@ -114,7 +114,7 @@
       "address": "0xb1e12802831da99d2d47b6a55049d69bf7de0e3c",
       "symbol": "oBTC",
       "decimals": 8,
-      "name": "Obelisk Staked BTC",
+      "name": "Obelisk BTC",
       "logoURI": ""
     },
     {
@@ -130,7 +130,7 @@
       "address": "0x17140b69FfaDfF9e87BF1D86D99119ee10AD24ff",
       "symbol": "satSolvBTC",
       "decimals": 18,
-      "name": "Satlayer xSolvBTC",
+      "name": "Satlayer SolvBTC.BBN",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/xSolvBTC.svg"
     },
     {

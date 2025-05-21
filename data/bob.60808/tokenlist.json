@@ -18,7 +18,7 @@
       "address": "0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3",
       "symbol": "WBTC",
       "decimals": 8,
-      "name": "Wrapped BTC (WBTC)",
+      "name": "Wrapped BTC",
       "logoURI": ""
     },
     {
@@ -58,7 +58,7 @@
       "address": "0x6265C05158f672016B771D6Fb7422823ed2CbcDd",
       "symbol": "seWBTC",
       "decimals": 8,
-      "name": "Segment Wrapped BTC",
+      "name": "Segment WBTC",
       "logoURI": ""
     }
   ],
