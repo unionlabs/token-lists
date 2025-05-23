@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Arbitrum Testnet 421614 Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-01-21T13:54:42Z",
+  "tokens": [
+    {
+      "chainId": "421614",
+      "address": "0x75faf114eafb1bdbe2f0316df893fd58ce46aa4d",
+      "symbol": "USDC",
+      "decimals": 6,
+      "name": "USD Coin",
+      "logoURI": ""
+    },
+    {
+      "chainId": "421614",
+      "address": "0xb1d4538b4571d411f07960ef2838ce337fe1e80e",
+      "symbol": "LINK",
+      "decimals": 18,
+      "name": "ChainLink Token",
+      "logoURI": ""
+    },
+    {
+      "chainId": "421614",
+      "address": "0x2f26b901590801476c5bac1debc4e42379127a44",
+      "symbol": "SPN",
+      "decimals": 18,
+      "name": "Superposition",
+      "logoURI": ""
+    },
+    {
+      "chainId": "421614",
+      "address": "0xf98e3c78955b660ac30ade94015758f6a25e7a9d",
+      "symbol": "UNO",
+      "decimals": 6,
+      "name": "UNO",
+      "logoURI": ""
+    },
+    {
+      "chainId": "421614",
+      "address": "0x3e27fae625f25291bfda517f74bf41dc40721da2",
+      "symbol": "OVL",
+      "decimals": 18,
+      "name": "Overlay",
+      "logoURI": ""
+    },
+    {
+      "chainId": "421614",
+      "address": "0x6cb8cc1e323357af5da49d90fcb7160b7f09e6cd",
+      "symbol": "APE",
+      "decimals": 18,
+      "name": "ApeCoin",
+      "logoURI": ""
+    },
+    {
+      "chainId": "421614",
+      "address": "0x9aa40cc99973d8407a2ae7b2237d26e615ecafd2",
+      "symbol": "USDT",
+      "decimals": 18,
+      "name": "USDT",
+      "logoURI": ""
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

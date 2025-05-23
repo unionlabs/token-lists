@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Scroll Testnet 534351 Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-01-21T13:54:42Z",
+  "tokens": [
+    {
+      "chainId": "534351",
+      "address": "0xd8a4904e595dd2fb198e69ce33ccf933932c4b6d",
+      "symbol": "UNO",
+      "decimals": 6,
+      "name": "UNO",
+      "logoURI": ""
+    },
+    {
+      "chainId": "534351",
+      "address": "0x231d45b53c905c3d6201318156bdc725c9c3b9b1",
+      "symbol": "LINK",
+      "decimals": 18,
+      "name": "LINK",
+      "logoURI": ""
+    },
+    {
+      "chainId": "534351",
+      "address": "0x42e75e6a76b1a8a2432e620ab0f27393275e556c",
+      "symbol": "USDC",
+      "decimals": 6,
+      "name": "USDC",
+      "logoURI": ""
+    },
+    {
+      "chainId": "534351",
+      "address": "0xd812197c4c28354132394112544de8ff5ee770c2",
+      "symbol": "HONEY",
+      "decimals": 18,
+      "name": "HONEY",
+      "logoURI": ""
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
