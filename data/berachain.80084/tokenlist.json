@@ -1,0 +1,702 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Berachain Testnet 80084 Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-01-21T13:54:42Z",
+  "tokens": [
+    {
+      "chainId": "80084",
+      "address": "0x0c27d64e1a1f4c24a4ee7b3d1acb0a2865c9004c",
+      "symbol": "HONEY",
+      "decimals": 18,
+      "name": "HONEY",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x6e6174697665",
+      "symbol": "BERA",
+      "decimals": 18,
+      "name": "BERA",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x0e4aaf1351de4c0264c5c7056ef3777b41bd8e03",
+      "symbol": "HONEY",
+      "decimals": 18,
+      "name": "Honey",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x8c18520386b7db6d5ae7d05cfdb51e91393c68c1",
+      "symbol": "EURC",
+      "decimals": 6,
+      "name": "",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xb40470a00bd9efebc84faaa99b5e55f5ec5d9deb",
+      "symbol": "o_______o",
+      "decimals": 0,
+      "name": "o_______o",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x6e1dae544ae8f327737ab9effa632758937b1f12",
+      "symbol": "STRD",
+      "decimals": 6,
+      "name": "STRD",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x05d0dd5135e3ef3ade32a9ef9cb06e8d37a6795d",
+      "symbol": "USDT",
+      "decimals": 6,
+      "name": "Tether USD",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x7507c1dc16935b82698e4c63f2746a2fcf994df8",
+      "symbol": "WBERA",
+      "decimals": 18,
+      "name": "Wrapped Bera",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x277aadbd9ea3db8fe9ea40ea6e09f6203724bdae",
+      "symbol": "DIRAC",
+      "decimals": 18,
+      "name": "Dirac Finance Token",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x83e15fdaed52dd06725efbf08d40eaff6dd043d4",
+      "symbol": "USDG",
+      "decimals": 18,
+      "name": "USDG",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x286f1c3f0323db9c91d1e8f45c8df2d065ab5fae",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "name": "WBTC",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x12c195768f65f282ea5f1b5c42755fbc910b0d8f",
+      "symbol": "KODIAK-1",
+      "decimals": 18,
+      "name": "Kodiak Vault V1 HONEY/WBERA",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x20efa68374f030cb5c5a7d776fc07e2240712580",
+      "symbol": "bSTRK",
+      "decimals": 18,
+      "name": "bastark",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x2a108225249cb5b3e1e33943f5fefaec33b1d452",
+      "symbol": "USDT",
+      "decimals": 18,
+      "name": "USDT",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x2c2fc71339acdd913734a4cae9dd95d9d2b1438d",
+      "symbol": "BTP",
+      "decimals": 18,
+      "name": "BERA THE POOH",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x30b4eb3096ebba3eb66b5068c6c7116d5599a395",
+      "symbol": "VKb",
+      "decimals": 18,
+      "name": "Vik Bar",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x02d9cd83093153f35cef7ef2496d0223fc8e94c6",
+      "symbol": "BRG",
+      "decimals": 18,
+      "name": "BERA GAME",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x08b918dd18e087893bb9d711d9e0bbaa7a63ef63",
+      "symbol": "MIM",
+      "decimals": 18,
+      "name": "Magic Internet Money",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x08cb9f7279fc034fb1281f096dd8bbed2b9dc8bf",
+      "symbol": "pepe",
+      "decimals": 18,
+      "name": "pepe",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x0d30be7305e800d4a0dfd8d4d7cacd5123831b4a",
+      "symbol": "WETH-USDC-LP",
+      "decimals": 18,
+      "name": "WETH-USDC-LP",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x0ddb38f7d473e8040985fa3b4116fdeef89778bc",
+      "symbol": "aWBTC",
+      "decimals": 8,
+      "name": "WBTC-AToken",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x0f81553292b5d9fa563a92d7c2a339e2b402b154",
+      "symbol": "ABR",
+      "decimals": 18,
+      "name": "abartio",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x1306d3c36ec7e38dd2c128fbe3097c2c2449af64",
+      "symbol": "bHONEY",
+      "decimals": 18,
+      "name": "bHoney",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x14ee0a8dcd1714781aa0d026f46fc7f77b73c01d",
+      "symbol": "HONEY-WBTC-LP",
+      "decimals": 18,
+      "name": "HONEY-WBTC-LP",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x1740f679325ef3686b2f574e392007a92e4bed41",
+      "symbol": "YEET",
+      "decimals": 18,
+      "name": "$YEET",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x1afe9c399b40a65c783049e732d7ad5d37e68f78",
+      "symbol": "KODIAK-4",
+      "decimals": 18,
+      "name": "Kodiak Vault V1 HONEY/DIRAC",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x1e94a8cee3e5bd97e0cd933b8f8537fc3db4fce7",
+      "symbol": "BEARTIC",
+      "decimals": 18,
+      "name": "Beartic Token",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x50f7d4da89f720fbfb35be369f34c6b51e2cada1",
+      "symbol": "HONEY-WETH-LP",
+      "decimals": 18,
+      "name": "HONEY-WETH-LP",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x6e1e9896e93f7a71ecb33d4386b49deed67a231a",
+      "symbol": "WETH",
+      "decimals": 18,
+      "name": "WETH",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x806ef538b228844c73e8e692adcfa8eb2fcf729c",
+      "symbol": "DAI",
+      "decimals": 18,
+      "name": "Decentralized USD",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x8ce5c1c42cd58b7ae61512790e514a82d84375ed",
+      "symbol": "aWETH",
+      "decimals": 18,
+      "name": "WEth-AToken",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x8f22cd288fa62f5f198ba03fcdb3829dd7c0cbb8",
+      "symbol": "CRACK",
+      "decimals": 18,
+      "name": "Crack",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xa11e60393dbaec5a45416f063de2abf94af2cd50",
+      "symbol": "MIM-HONEY-LP",
+      "decimals": 18,
+      "name": "MIM-HONEY-LP",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xd08391c5977ebf1a09bb5915908ef5cd95edb7e0",
+      "symbol": "aHONEY",
+      "decimals": 18,
+      "name": "Honey-AToken",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xd28d852cbcc68dcec922f6d5c7a8185dbaa104b7",
+      "symbol": "HONEY-WBERA-LP",
+      "decimals": 18,
+      "name": "HONEY-WBERA-LP",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xd67eab117504baaf5c24873f7a4c37d9290253e8",
+      "symbol": "USDT",
+      "decimals": 18,
+      "name": "Usd Tethor",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xd6d83af58a19cd14ef3cf6fe848c9a4d21e5727c",
+      "symbol": "USDC",
+      "decimals": 18,
+      "name": "USD Coin",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xf331abffe9cb2b966ab4c102ee268f4e1ad8e24b",
+      "symbol": "UNI-V2",
+      "decimals": 18,
+      "name": "Uniswap V2",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xf498d49f7f8d063b7d584c0a679a1ce777f3900b",
+      "symbol": "IBGT",
+      "decimals": 18,
+      "name": "IBGT",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xfd27998fa0eab1a6372db14afd4bf7c4a58c5364",
+      "symbol": "KDK",
+      "decimals": 18,
+      "name": "Kodiak token",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x19aaffa7f6d4faaf74dc92dba5751ae697f4b55f",
+      "symbol": "CLP:HONEY-WBERA",
+      "decimals": 18,
+      "name": "Cheeseswap LP Token",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x215d01442e3d00f705ba62814b2bc93a4190bfb5",
+      "symbol": "WBERA",
+      "decimals": 18,
+      "name": "WBERA",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x2d2e9b0e05570af5b84ddfb3cf43aafc11e036db",
+      "symbol": "CL",
+      "decimals": 18,
+      "name": "COOL",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x31427558640683c1df3a06ce1e4cb18ad3be8143",
+      "symbol": "BN",
+      "decimals": 18,
+      "name": "Bera Node",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x343499e6315f7d3473a12aaf660ac02b5739c382",
+      "symbol": "GOLD",
+      "decimals": 18,
+      "name": "Grand Conquest Gold",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x3d31118bb13c65d8c4232b82e9900a00bf969573",
+      "symbol": "SW",
+      "decimals": 18,
+      "name": "Sea War",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x460f04e2dc8368b77bda56571fbd0e8665a1c7c1",
+      "symbol": "USDT-USDC-LP",
+      "decimals": 18,
+      "name": "USDT-USDC-LP",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x55a1dda169abb5faffe4df705b260ce9d7eb441a",
+      "symbol": "ttt",
+      "decimals": 18,
+      "name": "Littlestown",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x5c1b1e396fa646ad1d774c73ec8cc45bd9ec1622",
+      "symbol": "DBS",
+      "decimals": 18,
+      "name": "debisi",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x6123100b681e04411b12cd111f080bc4d3c62086",
+      "symbol": "COKE",
+      "decimals": 8,
+      "name": "BonziWifCoke",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x61b34ac024035e815452047da3b42b46d76339dd",
+      "symbol": "WBERA",
+      "decimals": 18,
+      "name": "WBERA",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x676d0707ac8b4d3e321986f752cad44edbfab6e7",
+      "symbol": "zberaWBERA",
+      "decimals": 18,
+      "name": "Zeru Bera Bartio Market WBERA",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x730972eb6ee7e9e68a1cd463fccf454022031017",
+      "symbol": "WETH-WBERA-LP",
+      "decimals": 18,
+      "name": "WETH-WBERA-LP",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x820288fe9189136c0eba3d08db6bf544c2a335fe",
+      "symbol": "UNI-V2",
+      "decimals": 18,
+      "name": "Uniswap V2",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x8227c83e177be2e389f04c8799e756aad5ce217b",
+      "symbol": "ASB",
+      "decimals": 18,
+      "name": "astarkovbart",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x946fb1871396f77e2e0232cdbc96b818035c6068",
+      "symbol": "USDT",
+      "decimals": 18,
+      "name": "peg usd for kiloex",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x978cc7ca0c14a8ae42a0590c43c27a200ebf884a",
+      "symbol": "YEBO",
+      "decimals": 18,
+      "name": "0xYebo",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x9f8028150519dd4fd792f3476c4b2046ac0ff5cd",
+      "symbol": "UNI-V2",
+      "decimals": 18,
+      "name": "Uniswap V2",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xa0525273423537bc76825b4389f3baec1968f83f",
+      "symbol": "JNKY",
+      "decimals": 18,
+      "name": "Junky Ursas LFG",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xa2d4ebce803311a7d3770dc0814f8aad086d0e1e",
+      "symbol": "etk",
+      "decimals": 18,
+      "name": "Reshetikha",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xa8ff751d316344e1336cf7875bb881ddd16e4f5b",
+      "symbol": "HYT",
+      "decimals": 18,
+      "name": "HONEY TOKEN",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xb5c6e9f84f647964bac2f560a3f4a6324032a977",
+      "symbol": "TMTN",
+      "decimals": 18,
+      "name": "Test token Moon Jupiter",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xb703adc1efff53b4745481f0bfb96060e7abed7c",
+      "symbol": "Guruuu",
+      "decimals": 18,
+      "name": "0xGuru",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xb73dee52f38539ba854979eab6342a60dd4c8c03",
+      "symbol": "KODIAK-2",
+      "decimals": 18,
+      "name": "Kodiak Vault V1 HONEY/USDC",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xb85f8f2dc79c98fce9ad8110d72213ca9ba09e8e",
+      "symbol": "RTA",
+      "decimals": 18,
+      "name": "rastad",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xb9b10d30be831f0bd3f85aca79a0bc90e5c2adfa",
+      "symbol": "lbrt",
+      "decimals": 18,
+      "name": "lbartio",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xbb7402aae0772ebec973d0421971d29ea2fc2429",
+      "symbol": "CP",
+      "decimals": 18,
+      "name": "CashPro",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xbf3faa5700fd686dcbab8b2b3043b5603530e54f",
+      "symbol": "WBTC-WETH-LP",
+      "decimals": 18,
+      "name": "WBTC-WETH-LP",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xc2b60e00a29e99bc8cb54b110ea8ab126ea5ea8f",
+      "symbol": "USDT",
+      "decimals": 6,
+      "name": "USDT",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xca3bf2aa409612aca3a59db4a6684cf9a9336c32",
+      "symbol": "BBATK",
+      "decimals": 18,
+      "name": "bediBARTIOTOK",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xca97345ad6a91176429caf5aa2896732cbf66ebd",
+      "symbol": "aWETH",
+      "decimals": 18,
+      "name": "WEth-AToken",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xd1a90f79539f5895cdf2688f5505e0cf7e33ac4c",
+      "symbol": "USDC",
+      "decimals": 6,
+      "name": "IVX USDC",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xd437095a7ac009dd61036c693d9d77a6b97bf6a9",
+      "symbol": "SUGAR",
+      "decimals": 18,
+      "name": "Sugar",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xd57478f7b74cf5adc84bc3b02cb351b4be69c430",
+      "symbol": "YLX",
+      "decimals": 18,
+      "name": "YLX",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xd69adb6fb5fd6d06e6ceec5405d95a37f96e3b96",
+      "symbol": "HONEY-USDC-LP",
+      "decimals": 18,
+      "name": "HONEY-USDC-LP",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xdfdaeca74bb2d37204171ce05fe6ba6ae970d844",
+      "symbol": "fBera",
+      "decimals": 18,
+      "name": "Fake Bera",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xe28afd8c634946833e89ee3f122c06d7c537e8a8",
+      "symbol": "WETH",
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xe4b887d8a4d99d7da99bfa48d8363ec415776490",
+      "symbol": "BB",
+      "decimals": 18,
+      "name": "BBTIO",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9",
+      "symbol": "KODIAK-3",
+      "decimals": 18,
+      "name": "Kodiak Vault V1 YEET/WBERA",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xecf993860416f98d27bfd10ff7f718f4e7cced66",
+      "symbol": "CLP:WBERA-HYT",
+      "decimals": 18,
+      "name": "Cheeseswap LP Token",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xf09386764d08435e209b959c52c3f11872e9a42d",
+      "symbol": "WBTC-USDC-LP",
+      "decimals": 18,
+      "name": "WBTC-USDC-LP",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xf4e809042dd21693d914ed4f6b0511f44a1177ba",
+      "symbol": "DHoney",
+      "decimals": 18,
+      "name": "Dirac honey",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xf772481eb5cf6fce7cdee66c7033a555ecc32e34",
+      "symbol": "HONEY",
+      "decimals": 18,
+      "name": "HONEY",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xf97813688ae9b63f9f9714874e1a513ea739fade",
+      "symbol": "UNI-V2",
+      "decimals": 18,
+      "name": "Uniswap V2",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0xfbe71d98f9d2c658d52a2d72994c717637c3dda1",
+      "symbol": "HONEY-WETH-LP",
+      "decimals": 18,
+      "name": "Uniswap V2",
+      "logoURI": ""
+    },
+    {
+      "chainId": "80084",
+      "address": "0x08247b1c6d6aacf6c655f711661d5810380c8385",
+      "symbol": "UNO",
+      "decimals": 6,
+      "name": "UNO",
+      "logoURI": ""
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

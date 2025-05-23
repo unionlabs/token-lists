@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Legacy Testnet 8 stride stride-internal-1 Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-01-21T13:54:42Z",
+  "tokens": [
+    {
+      "chainId": "stride-internal-1",
+      "address": "0x7573747264",
+      "symbol": "STRD",
+      "decimals": 6,
+      "name": "STRD",
+      "logoURI": ""
+    },
+    {
+      "chainId": "stride-internal-1",
+      "address": "0x6962632f39414536393534333944333746413536373336313144363734464344344142384141414332453941384441453131423042433134414339303631374641433236",
+      "symbol": "UNO",
+      "decimals": 6,
+      "name": "UNO",
+      "logoURI": ""
+    },
+    {
+      "chainId": "stride-internal-1",
+      "address": "0x6962632f41343835313842423635373130333933363145324244444135353943383441423030373642463030303833353642343244334645463632413142344343303941",
+      "symbol": "o_______o",
+      "decimals": 0,
+      "name": "o_______o",
+      "logoURI": ""
+    },
+    {
+      "chainId": "stride-internal-1",
+      "address": "0x6962632f31383531433833363046313831313134333632314142383345374532443034383430323835384437463241443445343143364630313133454636393631353632",
+      "symbol": "HONEY",
+      "decimals": 18,
+      "name": "HONEY",
+      "logoURI": ""
+    },
+    {
+      "chainId": "stride-internal-1",
+      "address": "0x737461647634746e74",
+      "symbol": "stdv4tnt",
+      "decimals": 18,
+      "name": "Liquid Staked dYdX V4 Testnet Token",
+      "logoURI": ""
+    },
+    {
+      "chainId": "stride-internal-1",
+      "address": "0x737475746961",
+      "symbol": "stTIA",
+      "decimals": 6,
+      "name": "stTIA",
+      "logoURI": ""
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
