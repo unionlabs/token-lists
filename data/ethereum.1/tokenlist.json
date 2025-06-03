@@ -204,6 +204,14 @@
       "decimals": 6,
       "name": "Babylon",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/BABY.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "symbol": "ETH",
+      "decimals": 18,
+      "name": "Ether",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/ETH.svg"
     }
   ],
   "version": {

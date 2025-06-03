@@ -47,14 +47,6 @@
     },
     {
       "chainId": "11155111",
-      "address": "0x6e6174697665",
-      "symbol": "ETH",
-      "decimals": 18,
-      "name": "Sepolia Ether",
-      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/ETH.svg"
-    },
-    {
-      "chainId": "11155111",
       "address": "0x3f4b6664338f23d2397c953f2ab4ce8031663f80",
       "symbol": "OKB",
       "decimals": 18,
