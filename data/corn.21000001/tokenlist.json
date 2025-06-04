@@ -20,6 +20,14 @@
       "decimals": 18,
       "name": "Wrapped Bitcorn",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/WBTCN.svg"
+    },
+    {
+      "chainId": 21000001,
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "symbol": "BTCN",
+      "decimals": 18,
+      "name": "Bitcorn",
+      "logoURI": ""
     }
   ],
   "version": {
