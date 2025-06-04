@@ -27,7 +27,7 @@
       "symbol": "BTCN",
       "decimals": 18,
       "name": "Bitcorn",
-      "logoURI": ""
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/BTCN.svg"
     }
   ],
   "version": {
