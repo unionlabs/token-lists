@@ -60,6 +60,22 @@
       "decimals": 18,
       "name": "Ether",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/ETH.svg"
+    },
+    {
+      "chainId": "11155111",
+      "address": "0x6e14233172B25eba7Ed3CBC513dD8d78d7c2F519",
+      "symbol": "IPOR",
+      "decimals": 18,
+      "name": "IPOR Token",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/IPOR.svg"
+    },
+    {
+      "chainId": "11155111",
+      "address": "0xB82381A3fBD3FaFA77B3a7bE693342618240067b",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "name": "Wrapped liquid staked Ether 2.0",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/wstETH.svg"
     }
   ],
   "version": {
