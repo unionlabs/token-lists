@@ -42,17 +42,17 @@ struct Token {
     decimals: u8,
 }
 
-// #[derive(Deserialize)]
-// struct TokenInfoResponse {
-//     data: TokenInfo,
-// }
+#[derive(Deserialize)]
+struct TokenInfoResponse {
+    data: TokenInfo,
+}
 
-// #[derive(Deserialize)]
-// struct TokenInfo {
-//     name: String,
-//     symbol: String,
-//     decimals: u8,
-// }
+#[derive(Deserialize)]
+struct TokenInfo {
+    name: String,
+    symbol: String,
+    decimals: u8,
+}
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -72,19 +72,9 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         match cfg.rpc_type.as_str() {
             "evm" => error_count += evm(&chain_id, tokens).await,
-            "cosmos" => error_count += cosmos().await,
+            "cosmos" => error_count += cosmos(&chain_id, tokens).await,
             _ => panic!("invalid rpc_type"),
         }
-
-        //     } else if network == "babylon" {
-        //         for token in tokens {
-        //             match verify_on_cosmos(&token).await {
-        //                 Ok(errors) => error_count += errors,
-        //             }
-        //         }
-        //     } else {
-        //         println!(";
-        //     }
     }
 
     if error_count > 0 {
@@ -123,7 +113,7 @@ fn get_evm_provider(network: &str) -> Option<RootProvider<Http<Client>>> {
         Some((left, right)) => format!("{}.{}", right, left),
         None => network.to_owned(),
     };
-    let full_url = format!("https://rpc.{subdomain}{}", provider_suffix);
+    let full_url = format!("https://rpc.{subdomain}{provider_suffix}");
     let provider = ProviderBuilder::new().on_http(Url::parse(&full_url).ok()?);
 
     Some(provider)
@@ -178,68 +168,79 @@ async fn verify_on_evm(
     Ok(local_error_count)
 }
 
-async fn cosmos() -> u32 {
+async fn cosmos(network: &str, tokens: Vec<Token>) -> u32 {
     let mut error_count = 0;
-    println!("Im in the cosmos function");
+    let client = Client::new();
+    let rpc_url = get_rpc_url(network).unwrap();
+    let msg = serde_json::json!({ "token_info": {} });
+    let query = general_purpose::STANDARD.encode(msg.to_string());
+
+    for token in tokens {
+        if subtle_encoding::bech32::decode(&token.address).is_ok() {
+            match cw_20(&token, &rpc_url, &query, &client).await {
+                Ok(errors) => error_count += errors,
+                Err(e) => {
+                    eprintln!("❌ Failed to verify {}: {}", token.symbol, e);
+                    error_count += 1;
+                }
+            }
+        }
+    }
 
     error_count
 }
 
-fn get_rpc(network: &str) {}
+fn get_rpc_url(network: &str) -> Option<String> {
+    let provider_suffix = env::var("RPC_PROVIDER").ok()?;
+    let subdomain = match network.split_once('.') {
+        Some((right, left)) => format!("{}.{}", left, right),
+        None => network.to_owned(),
+    };
+    Some(format!("https://rest.{subdomain}{provider_suffix}"))
+}
 
-// async fn verify_on_cosmos(token: &Token) -> Result<u32, Box<dyn std::error::Error>> {
-//     let client = Client::new();
+async fn cw_20(
+    token: &Token,
+    rpc_url: &str,
+    query: &str,
+    client: &Client,
+) -> Result<u32, Box<dyn std::error::Error>> {
+    let url = format!(
+        "{}/cosmwasm/wasm/v1/contract/{}/smart/{}",
+        rpc_url, token.address, query
+    );
 
-//     if token.address == "ubbn" {
-//         println!("ℹ️ Skipping non-contract token: {}", token.symbol);
-//         return Ok(0);
-//     }
+    let res: TokenInfoResponse = client.get(&url).send().await?.json().await?;
 
-//     if token.address.starts_with("ibc/") {
-//         println!("ℹ️ Skipping IBC token: {}", token.symbol);
-//         return Ok(0);
-//     }
+    let mut local_error_count = 0;
 
-//     let msg = serde_json::json!({ "token_info": {} });
-//     let query = general_purpose::STANDARD.encode(msg.to_string());
+    if token.symbol != res.data.symbol {
+        println!(
+            "[{}] ❌ Symbol mismatch: JSON = {}, On-chain = {}",
+            token.symbol, token.symbol, res.data.symbol
+        );
+        local_error_count += 1;
+    }
 
-//     let rpc_url = "https://babylon.nodes.guru";
-//     let url = format!(
-//         "{}/api/cosmwasm/wasm/v1/contract/{}/smart/{}",
-//         rpc_url, token.address, query
-//     );
+    if token.name != res.data.name {
+        println!(
+            "[{}] ❌ Name mismatch: JSON = {}, On-chain = {}",
+            token.symbol, token.name, res.data.name
+        );
+        local_error_count += 1;
+    }
 
-//     let res: TokenInfoResponse = client.get(&url).send().await?.json().await?;
+    if token.decimals != res.data.decimals {
+        println!(
+            "[{}] ❌ Decimals mismatch: JSON = {}, On-chain = {}",
+            token.symbol, token.decimals, res.data.decimals
+        );
+        local_error_count += 1;
+    }
 
-//     let mut local_error_count = 0;
+    if local_error_count == 0 {
+        println!("[{}] ✅ Token is valid ", token.symbol);
+    }
 
-//     if token.symbol != res.data.symbol {
-//         println!(
-//             "[{}] ❌ Symbol mismatch: JSON = {}, On-chain = {}",
-//             token.symbol, token.symbol, res.data.symbol
-//         );
-//         local_error_count += 1;
-//     }
-
-//     if token.name != res.data.name {
-//         println!(
-//             "[{}] ❌ Name mismatch: JSON = {}, On-chain = {}",
-//             token.symbol, token.name, res.data.name
-//         );
-//         local_error_count += 1;
-//     }
-
-//     if token.decimals != res.data.decimals {
-//         println!(
-//             "[{}] ❌ Decimals mismatch: JSON = {}, On-chain = {}",
-//             token.symbol, token.decimals, res.data.decimals
-//         );
-//         local_error_count += 1;
-//     }
-
-//     if local_error_count == 0 {
-//         println!("[{}] ✅ Token is valid ", token.symbol);
-//     }
-
-//     Ok(local_error_count)
-// }
+    Ok(local_error_count)
+}
