@@ -1,0 +1,30 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "BNB Mainnet Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-01-15T16:00:00Z",
+  "tokens": [
+    {
+      "chainId": "56",
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "symbol": "BNB",
+      "decimals": 18,
+      "name": "BNB",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/BNB.svg"
+    },
+    {
+      "chainId": "56",
+      "address": "0x918b3aa73e2D42D96CF64CBdB16838985992dAbc",
+      "symbol": "CoBTC",
+      "decimals": 8,
+      "name": "Coffer Bitcoin",
+      "logoURI": ""
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
