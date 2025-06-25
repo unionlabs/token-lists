@@ -12,7 +12,7 @@
       "decimals": 18,
       "name": "BNB",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/BNB.svg"
-    },
+    }
   ],
   "version": {
     "major": 1,
