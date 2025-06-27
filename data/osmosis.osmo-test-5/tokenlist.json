@@ -11,7 +11,7 @@
       "symbol": "OSMO",
       "decimals": 6,
       "name": "Osmosis",
-      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/OSMO.svg"
     },
     {
       "chainId": "osmo-test-5",
@@ -19,7 +19,7 @@
       "symbol": "ION",
       "decimals": 6,
       "name": "Ion",
-      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.png"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/ION.svg"
     },
     {
       "chainId": "osmo-test-5",
@@ -27,7 +27,7 @@
       "symbol": "ATOM",
       "decimals": 6,
       "name": "Cosmos Hub Atom",
-      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/ATOM.svg"
     },
     {
       "chainId": "osmo-test-5",
@@ -35,7 +35,7 @@
       "symbol": "AKT",
       "decimals": 6,
       "name": "Akash Network",
-      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/AKT.svg"
     },
     {
       "chainId": "osmo-test-5",
@@ -43,7 +43,7 @@
       "symbol": "aUSDC.axl",
       "decimals": 6,
       "name": "USD Coin (Axelar)",
-      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/USDC.svg"
     }
   ],
   "version": {
