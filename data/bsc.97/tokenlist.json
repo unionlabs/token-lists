@@ -12,6 +12,38 @@
       "decimals": 18,
       "name": "BNB",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/BNB.svg"
+    },
+    {
+      "chainId": "97",
+      "address": "0xed24fc36d5ee211ea25a80239fb8c4cfd80f12ee",
+      "symbol": "BUSD",
+      "decimals": 18,
+      "name": "Binance USD",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/BUSD.svg"
+    },
+    {
+      "chainId": "97",
+      "address": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+      "symbol": "USDT",
+      "decimals": 18,
+      "name": "USDT Token",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/USDT.svg"
+    },
+    {
+      "chainId": "97",
+      "address": "0x64544969ed7EBf5f083679233325356EbE738930",
+      "symbol": "USDC",
+      "decimals": 18,
+      "name": "USDC Token",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/USDC.svg"
+    },
+    {
+      "chainId": "97",
+      "address": "0xEC5dCb5Dbf4B114C9d0F65BcCAb49EC54F6A0867",
+      "symbol": "DAI",
+      "decimals": 18,
+      "name": "DAI Token",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/DAI.svg"
     }
   ],
   "version": {
