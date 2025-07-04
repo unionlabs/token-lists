@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Base Sepolia Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-01-15T16:00:00Z",
+  "tokens": [
+    {
+      "chainId": "84532",
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "symbol": "ETH",
+      "decimals": 18,
+      "name": "ETH",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/ETH.svg"
+    },
+    {
+      "chainId": "84532",
+      "address": "0x7EbbA0361cCF8ECF66C4522A9323674Cd33e8b99",
+      "symbol": "IPOR",
+      "decimals": 18,
+      "name": "IPOR Token",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/IPOR.svg"
+    },
+    {
+      "chainId": "84532",
+      "address": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+      "symbol": "USDC",
+      "decimals": 6,
+      "name": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/USDC.svg"
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
