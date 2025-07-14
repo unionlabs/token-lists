@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Sei Mainnet Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-05-22T15:41:00Z",
+  "tokens": [
+    {
+      "chainId": "1329",
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "symbol": "SEI",
+      "decimals": 18,
+      "name": "Sei",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/SEI.svg"
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
