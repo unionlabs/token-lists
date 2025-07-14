@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Osmosis Mainnet Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-01-24T16:00:00Z",
+  "tokens": [
+    {
+      "chainId": "osmosis-1",
+      "address": "uosmo",
+      "symbol": "OSMO",
+      "decimals": 6,
+      "name": "Osmosis",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/OSMO.svg"
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
