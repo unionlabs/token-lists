@@ -7,6 +7,14 @@
   "tokens": [
     {
       "chainId": "11155111",
+      "address": "0xba5eD44733953d79717F6269357C77718C8Ba5ed",
+      "symbol": "U",
+      "decimals": 18,
+      "name": "Union",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/U.svg"
+    },
+    {
+      "chainId": "11155111",
       "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
       "symbol": "USDC",
       "decimals": 6,
