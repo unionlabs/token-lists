@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
-  "name": "Union Testnet 10 Token List",
+  "name": "Union Mainnet Token List",
   "keywords": [],
   "tags": {},
   "timestamp": "2025-03-27T17:25:00Z",
@@ -10,7 +10,7 @@
       "symbol": "U",
       "address": "au",
       "name": "Union",
-      "chainId": "union-testnet-10",
+      "chainId": "union-1",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/U.svg"
     }
   ],
