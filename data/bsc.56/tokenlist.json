@@ -19,7 +19,7 @@
       "symbol": "CoBTC",
       "decimals": 8,
       "name": "Coffer Bitcoin",
-      "logoURI": ""
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/CoBTC.svg"
     }
   ],
   "version": {
