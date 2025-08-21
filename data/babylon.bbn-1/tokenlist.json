@@ -312,6 +312,14 @@
           "blockchain": "ethereum"
         }
       }
+    },
+    {
+      "chainId": "bbn-1",
+      "address": "bbn1p56nwhnh0klnjf9k5ug6nyu84hkee0l2lq8f9kml7zwq9xsrkfcs7ej73n",
+      "symbol": "CoBTC",
+      "decimals": 8,
+      "name": "Coffer Bitcoin",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/CoBTC.svg"
     }
   ],
   "version": {
