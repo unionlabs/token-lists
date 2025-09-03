@@ -15,6 +15,14 @@
     },
     {
       "chainId": 1,
+      "denom": "0xe5Cf13C84c0fEa3236C101Bd7d743d30366E5CF1",
+      "symbol": "eU",
+      "decimals": 18,
+      "name": "Escher Staked U",
+      "logoURI": "https://app.escher.finance/images/token/e-union.svg"
+    },
+    {
+      "chainId": 1,
       "address": "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568",
       "symbol": "uniBTC",
       "decimals": 8,
