@@ -15,7 +15,7 @@
     },
     {
       "chainId": 1,
-      "denom": "0xe5Cf13C84c0fEa3236C101Bd7d743d30366E5CF1",
+      "address": "0xe5Cf13C84c0fEa3236C101Bd7d743d30366E5CF1",
       "symbol": "eU",
       "decimals": 18,
       "name": "Escher Staked U",
