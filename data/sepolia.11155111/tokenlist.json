@@ -15,6 +15,14 @@
     },
     {
       "chainId": "11155111",
+      "denom": "0xe5Cf13C84c0fEa3236C101Bd7d743d30366E5CF1",
+      "symbol": "eU",
+      "decimals": 18,
+      "name": "Escher Staked U",
+      "logoURI": "https://app.escher.finance/images/token/e-union.svg"
+    },
+    {
+      "chainId": "11155111",
       "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
       "symbol": "USDC",
       "decimals": 6,

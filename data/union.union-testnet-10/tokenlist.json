@@ -12,6 +12,14 @@
       "name": "Union",
       "chainId": "union-testnet-10",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/U.svg"
+    },
+    {
+      "chainId": "union-testnet-10",
+      "address": "union1eueueueu9var4yhdruyzkjcsh74xzeug6ckyy60hs0vcqnzql2hq0lxc2f",
+      "symbol": "eU",
+      "decimals": 18,
+      "name": "Escher Staked U",
+      "logoURI": "https://app.escher.finance/images/token/e-union.svg"
     }
   ],
   "version": {
