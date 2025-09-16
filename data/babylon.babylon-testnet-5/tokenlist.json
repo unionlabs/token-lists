@@ -20,6 +20,14 @@
       "decimals": 6,
       "name": "uniBTC",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/uniBTC.svg"
+    },
+    {
+      "chainId": "bbn-test-5",
+      "address": "bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9",
+      "symbol": "eBABY",
+      "decimals": 6,
+      "name": "ebbn",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/eBABY.svg"
     }
   ],
   "version": {
