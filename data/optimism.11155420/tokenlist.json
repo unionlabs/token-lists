@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "OP Sepolia Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-01-15T16:00:00Z",
+  "tokens": [
+    {
+      "chainId": "11155420",
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "symbol": "ETH",
+      "decimals": 18,
+      "name": "ETH",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/ETH.svg"
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
