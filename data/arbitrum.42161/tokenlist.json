@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Arbitrum Testnet 42161 Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-10-21T10:00:00Z",
+  "tokens": [
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
