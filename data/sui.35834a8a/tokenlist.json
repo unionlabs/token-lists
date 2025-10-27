@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/unionlabs/token-lists/main/data/tokenlist.schema.json",
+  "name": "Sui Mainnet Token List",
+  "keywords": [],
+  "tags": {},
+  "timestamp": "2025-10-21T10:00:00Z",
+  "tokens": [
+    {
+      "chainId": "35834a8a",
+      "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
+      "symbol": "SUI",
+      "decimals": 9,
+      "name": "SUI",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/SUI.svg"
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
