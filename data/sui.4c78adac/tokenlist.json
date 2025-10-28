@@ -6,7 +6,7 @@
   "timestamp": "2025-10-21T10:00:00Z",
   "tokens": [
     {
-      "chainId": "35834a8a",
+      "chainId": "4c78adac",
       "address": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI",
       "symbol": "SUI",
       "decimals": 9,
