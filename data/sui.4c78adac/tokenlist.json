@@ -12,6 +12,14 @@
       "decimals": 9,
       "name": "SUI",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/SUI.svg"
+    },
+    {
+      "chainId": "4c78adac",
+      "address": "0xc0d9421ae241dc48a720102016190a4b7bf3e14b5995dbe6e83d11fb966e5a99::u::U",
+      "symbol": "U",
+      "decimals": 18,
+      "name": "Union",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/U.svg"
     }
   ],
   "version": {
