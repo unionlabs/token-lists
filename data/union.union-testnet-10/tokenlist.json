@@ -20,6 +20,14 @@
       "decimals": 18,
       "name": "Escher Staked U",
       "logoURI": "https://app.escher.finance/images/token/e-union.svg"
+    },
+    {
+      "chainId": "union-testnet-10",
+      "address": "union1fufatgkyd23qmqlzt4avwj36kfhvjuur20pqjf8xewnx2mnhsses6dspmf",
+      "symbol": "SUI",
+      "decimals": 9,
+      "name": "Sui",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/SUI.svg"
     }
   ],
   "version": {
