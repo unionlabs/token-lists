@@ -236,6 +236,14 @@
       "decimals": 18,
       "name": "Manta",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/MANTA.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa1a1d0b9182339e86e80db519218ea03ec09a1a1",
+      "symbol": "ATONE",
+      "decimals": 6,
+      "name": "AtomOne",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/ATONE.svg"
     }
   ],
   "version": {
