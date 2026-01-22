@@ -20,6 +20,14 @@
       "decimals": 6,
       "name": "AtomOne",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/ATONE.svg"
+    },
+    {
+      "chainId": "osmosis-1",
+      "address": "ibc/D6E02C5AE8A37FC2E3AB1FC8AC168878ADB870549383DFFEA9FD020C234520A7",
+      "symbol": "PHOTON",
+      "decimals": 6,
+      "name": "AtomOne Photon",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/PHOTON.svg"
     }
   ],
   "version": {
