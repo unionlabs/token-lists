@@ -19,7 +19,7 @@
       "symbol": "eU",
       "decimals": 18,
       "name": "Escher Staked U",
-      "logoURI": "https://app.escher.finance/images/token/e-union.svg"
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/eU.svg"
     },
     {
       "chainId": "11155111",
