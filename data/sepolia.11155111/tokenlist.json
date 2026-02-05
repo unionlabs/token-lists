@@ -92,6 +92,22 @@
       "decimals": 18,
       "name": "Wrapped liquid staked Ether 2.0",
       "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/wstETH.svg"
+    },
+    {
+      "chainId": "11155111",
+      "address": "0xa1a1d0b9182339e86e80db519218ea03ec09a1a1",
+      "symbol": "ATONE",
+      "decimals": 6,
+      "name": "AtomOne",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/ATONE.svg"
+    },
+    {
+      "chainId": "11155111",
+      "address": "0x222c042e17d94f4c83720583c75a37242921ba1c",
+      "symbol": "PHOTON",
+      "decimals": 6,
+      "name": "AtomOne Photon",
+      "logoURI": "https://raw.githubusercontent.com/unionlabs/token-lists/main/logos/PHOTON.svg"
     }
   ],
   "version": {
